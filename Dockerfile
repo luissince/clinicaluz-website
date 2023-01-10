@@ -2,7 +2,7 @@ FROM node:16-alpine
 
 RUN apt-get update
 
-RUN apt-get install nano
+RUN apt-get install nano -y
 
 RUN mkdir /home/node/app
 
