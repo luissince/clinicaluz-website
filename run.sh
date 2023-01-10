@@ -1,7 +1,7 @@
-docker stop nextapp && docker rm nextapp
+docker stop next-app && docker rm next-app
 
-docker image rm nextapp
+docker image rm next-app
 
-docker build -t nextapp .
+docker build -t next-app .
 
-docker run -d --name nextapp --net=my-net -p 3000:3000 nextapp
+docker run -d --name next-app --net=my-net -p 3000:3000 next-app
