@@ -1,10 +1,10 @@
-FROM node:16-alpine
+FROM node:16
 
 #RUN apt-get update
 
 #RUN apt-get install nano -y
 
-RUN mkdir /home/node/app
+RUN mkdir -p /home/node/app
 
 WORKDIR  /home/node/app
 
