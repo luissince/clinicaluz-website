@@ -10,11 +10,11 @@ WORKDIR  /home/node/app
 
 COPY . .
 
-RUN npm install
+#RUN npm install
 
-RUN npm run build
+#RUN npm run build
 
-RUN npm start
+#RUN npm start
 
 EXPOSE 3000
 
