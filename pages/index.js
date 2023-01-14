@@ -16,21 +16,21 @@ import Format from '../layout/format';
 export default function Home() {
   return (
     <Format>
-      <div className="bg-primary w-full overflow-hidden">
-        <div className="xl:container mx-auto">
-          <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
+      <div className=" w-full overflow-hidden">
+        {/* <div className="xl:container mx-auto"> */}
+          {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}> */}
+            {/* <div className={`${styles.boxWidth}`}> */}
               <Navbar />
-            </div>
-          </div>
+            {/* </div> */}
+          {/* </div> */}
 
-          <div className={`bg-primary  ${styles.flexStart}`}>
+          {/* <div className={`bg-primary  ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
               <Hero />
             </div>
-          </div>
+          </div> */}
 
-          <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+          {/* <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
               <Stats />
               <Business />
@@ -41,8 +41,8 @@ export default function Home() {
               <Cta />
               <Footer />
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </Format>
   )
