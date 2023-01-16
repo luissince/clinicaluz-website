@@ -35,7 +35,7 @@ const Slider = () => {
             <div className="pr-3 flex items-center animate-pulse">
               <img src={"/images/logo.svg"} alt="hoobank" className="w-[124px] h-[32px]" />
             </div>
-            <div className="text-slate-400 pl-4 animate-pulse">
+            <div className="text-slate-300 pl-4 animate-pulse">
               The Future50 Europe edition is the world’s most credible ranking of insurtechs that will soon take the industry by storm.
             </div>
           </div>
