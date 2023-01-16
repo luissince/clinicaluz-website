@@ -1,7 +1,7 @@
 import styles, { layout } from "../constants/style";
 
 const Billing = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="product" className={`bg-red-400 ${layout.sectionReverse}`}>
     <div className={layout.sectionImgReverse}>
       <img src={"/images/bill.png"} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 

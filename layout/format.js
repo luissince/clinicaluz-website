@@ -10,7 +10,7 @@ export default function format( { children }){
             </Head>
 
             {/* <Header></Header> */}
-            <main>{children}</main>
+            {children}
             {/* <Footer></Footer> */}
         </>
     )
