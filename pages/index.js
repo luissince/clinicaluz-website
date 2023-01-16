@@ -13,7 +13,7 @@ import Footer from '../components/footer';
 
 import Format from '../layout/format';
 
-export default function Home() {
+function Home() {
   return (
     <Format>
       <Navbar />
@@ -21,6 +21,10 @@ export default function Home() {
       <Business />
       <Billing />
       <CardDeal />
+      <Clients />
+      <Footer />
     </Format>
   )
 }
+
+export default Home;

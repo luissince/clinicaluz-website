@@ -43,7 +43,7 @@ const Navbar = () => {
   }, [opacity]);
 
   return (
-    <div className={`fixed z-10 w-full ${opacity}`}>
+    <div className={`fixed z-20 w-full ${opacity}`}>
       <div className="container max-w-screen-2xl mx-auto px-12">
         <nav className="flex py-6 justify-between items-center">
           <img src={"/images/logo.svg"} alt="hoobank" className="w-[124px] h-[32px]" />
