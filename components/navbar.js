@@ -52,8 +52,8 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[15px] hover:bg-slate-900  py-2 border border-transparent
-                    ${active === nav.title ? "text-white" : "text-slate-400"} `}
+                className={`cursor-pointer text-[15px] hover:bg-slate-900  py-2 border border-transparent
+                    ${active === nav.title ? "text-white" : "text-slate-300"} `}
                 onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`} className="flex items-center justify-center">
@@ -61,8 +61,8 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <div className="font-poppins font-normal order-3 mt-2 sm:order-2 sm:mt-0 sm:w-auto">
-              <a href="#" className="flex items-center justify-center text-[15px] border border-transparent bg-slate-500/[0.2] px-5 py-2 text-slate-400 hover:bg-slate-900">
+            <div className="order-3 mt-2 sm:order-2 sm:mt-0 sm:w-auto">
+              <a href="#" className="flex items-center justify-center text-[15px] border border-transparent bg-slate-500/[0.7] px-5 py-2 text-white hover:bg-slate-900">
                 <MagnifyingGlassIcon className="w-4 mr-1" /> Buscar
               </a>
             </div>

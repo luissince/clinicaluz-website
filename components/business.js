@@ -1,23 +1,4 @@
-import { features } from "../constants";
-import styles, { layout } from "../constants/style";
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
-import Button from "./button";
-
-const FeatureCard = ({ icon, title, content, index }) => (
-  <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
-    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
-      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
-    </div>
-    <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
-        {title}
-      </h4>
-      <p className="font-poppins font-normal text-slate-400 text-[16px] leading-[24px]">
-        {content}
-      </p>
-    </div>
-  </div>
-);
 
 const Business = () => (
   <section className={`relative flex items-center justify-center overflow-hidden bg-[#23184f]`}>
@@ -25,14 +6,14 @@ const Business = () => (
     <div className="absolute z-[1] mx-auto w-full">
       <div className="container max-w-screen-2xl mx-auto px-12">
         <div className="relative">
-          <nav className="mb-6 flex gap-8">
-            <a className="relative border-b-4 border-b-white px-3 py-2 text-sm text-white transition-colors  hover:text-gray-500" href="/#features">
+          <nav className="mb-6 flex gap-8 ">
+            <a className="relative border-b-4 border-b-white px-3 py-2 text-base text-white transition-colors  hover:text-gray-500 animate-pulse" href="/#features">
               <span className="relative z-10">Ravin Inspect</span>
             </a>
-            <a className="relative border-b-4 border-b-white px-3 py-2 text-sm text-white transition-colors  hover:text-gray-500" href="/#reviews">
+            <a className="relative border-b-4 border-b-white px-3 py-2 text-base text-white transition-colors  hover:text-gray-500" href="/#reviews">
               <span className="relative z-10">Ravin Autoscan</span>
             </a>
-            <a className="relative border-b-4 border-b-white px-3 py-2 text-sm text-white transition-colors  hover:text-gray-500" href="/#pricing">
+            <a className="relative border-b-4 border-b-white px-3 py-2 text-base text-white transition-colors  hover:text-gray-500" href="/#pricing">
               <span className="relative z-10">Ravin Eye</span>
             </a>
           </nav>
@@ -48,13 +29,13 @@ const Business = () => (
             </div>
 
             <div className="w-[24rem] mt-6">
-              <p className="font-poppins font-normal text-[13px] py-2 text-gray-500 leading-6">
+              <p className=" text-lg py-2 text-gray-500 leading-6 animate-pulse">
                 The most powerful vehicle inspection app yet. Triggered by a link to your mobile browser. Allows even non-professionals to grade and report vehicle condition, anywhere.
               </p>
             </div>
 
             <div className="flex mt-28">
-              <p className="font-poppins font-normal text-[17px] py-2 text-gray-200 mr-2">More About Our Tools</p> <ChevronRightIcon className="w-5 text-slate-400" />
+              <p className="text-xl py-2 text-gray-200 mr-2">More About Our Tools</p> <ChevronRightIcon className="w-5 text-slate-400" />
             </div>
           </div>
         </div>

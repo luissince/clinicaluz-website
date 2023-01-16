@@ -19,7 +19,8 @@ export default function Home() {
       <Navbar />
       <Slider />
       <Business />
-      {/* <Billing /> */}
+      <Billing />
+      <CardDeal />
     </Format>
   )
 }

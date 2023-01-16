@@ -1,5 +1,6 @@
 import styles from "../constants/style";
 import GetStarted from "./getstarted";
+import { ChevronDoubleDownIcon} from '@heroicons/react/24/outline';
 
 const Slider = () => {
   return (
@@ -29,7 +30,7 @@ const Slider = () => {
           vehicle inspections
         </h1>
 
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 `}>
           Modular technology integrates into existing workflows to create a 360° scan -- designed for smaller damages leveraging AI on mobile phones
         </p>
 
@@ -48,13 +49,17 @@ const Slider = () => {
           </p>
 
           <div className="grid grid-cols-2 divide-x">
-            <div className="pr-3 flex items-center">
+            <div className="pr-3 flex items-center animate-pulse">
               <img src={"/images/logo.svg"} alt="hoobank" className="w-[124px] h-[32px]" />
             </div>
-            <div className="text-slate-400 pl-3">
+            <div className="text-slate-400 pl-4 animate-pulse">
               The Future50 Europe edition is the world’s most credible ranking of insurtechs that will soon take the industry by storm.
             </div>
           </div> 
+      </div>
+
+      <div className="absolute z-[2] bottom-0 mb-4">
+        <ChevronDoubleDownIcon  className="w-6 text-white animate-bounce"/>
       </div>
 
       {/* <div className="static left-0 right-0 top-0 bottom-0 z-0 w-screen bg-[#23184f]"> */}
