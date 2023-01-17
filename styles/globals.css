@@ -4,6 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.svg1{
+  /* clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%); */
+  clip-path: url(#imgSvg1);
+}
+.svg2{
+  /* clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%); */
+  clip-path: url(#imgSvg2);
+}
+.svg3{
+  /* clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%); */
+  clip-path: url(#imgSvg3);
+}
+
 /* :root {
   --black-gradient: linear-gradient(
     144.39deg,
