@@ -44,8 +44,8 @@ const Navbar = () => {
 
   return (
     <div className={`fixed z-20 w-full ${opacity}`}>
-      <div className="container max-w-screen-2xl mx-auto px-12">
-        <nav className="flex py-6 justify-between items-center">
+      <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
+        <div className="flex py-6 justify-between items-center">
           <img src={"/images/logo.svg"} alt="hoobank" className="w-[124px] h-[32px]" />
 
           <ul className="list-none lg:flex hidden justify-end items-center flex-1">
@@ -78,11 +78,11 @@ const Navbar = () => {
               <Bars3Icon className="h-7 w-7" aria-hidden="true" />
             </button>
           </div>
-        </nav>
+        </div>
 
         <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <Dialog.Panel focus="true" className="fixed inset-0 z-20 overflow-y-auto bg-slate-900/[1.0] lg:hidden">
-            <div className="flex items-center justify-between container max-w-screen-2xl mx-auto px-12 py-6">
+            <div className="flex items-center justify-between container max-w-screen-2xl mx-auto ss:px-12 px-6 py-6">
               <div className="flex">
                 <a href="#" className="">
                   <span className="sr-only">Your Company</span>

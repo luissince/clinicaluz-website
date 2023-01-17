@@ -4,7 +4,7 @@ const Business = () => (
   <section className={`relative flex flex-col items-center justify-center overflow-hidden bg-[#23184f] xl:h-[600px] 2xl:h-[700px]`}>
 
     <div className="lg:absolute flex relative z-[1] mx-auto w-full">
-      <div className="container max-w-screen-2xl mx-auto px-12">
+      <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
 
         <div className="mb-12 lg:mt-0 mt-6 flex flex-wrap gap-8 ">
           <a className=" border-b-4 border-b-white px-3 py-2 text-base text-white transition-colors  hover:text-gray-500 animate-pulse" to="/#features">
@@ -60,7 +60,7 @@ const Business = () => (
       </div>
     </div>
 
-    <div className="lg:hidden block container max-w-screen-2xl mx-auto px-12 py-12">
+    <div className="lg:hidden block container max-w-screen-2xl mx-auto ss:px-12 px-6 py-12">
       <div className="relative">
         <div className="flex mb-2">
           <img src={"/images/logo.svg"} alt="hoobank" className="w-[124px] h-[32px]" />

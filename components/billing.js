@@ -1,11 +1,11 @@
 
 const Billing = () => (
-  <section className="relative overflow-hidden bg-slate-50 w-full">
+  <section className="relative overflow-hidden bg-slate-50 w-full border-b border-slate-900/5">
     <div className="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('https://tailwindui.com/img/beams-templates-header.png')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block"></div>
 
-    <div className="container max-w-screen-2xl mx-auto px-12">
+    <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
       <div className="mx-auto max-w-container pt-4 lg:flex ">
-        <div className="relative z-20 max-w-[40rem] pb-16 pt-16 lg:mx-0 lg:w-[40rem] lg:max-w-none lg:flex-none lg:pb-24 lg:pr-4 lg:pt-20">
+        <div className="relative max-w-[40rem] pb-16 pt-16 lg:mx-0 lg:w-[40rem] lg:max-w-none lg:flex-none lg:pb-24 lg:pr-4 lg:pt-20">
           <h1 className="text-base font-semibold leading-7 text-sky-500">By the makers of Tailwind CSS</h1>
           <p className="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-black sm:text-5xl sm:leading-[3.5rem]">Modern website templates, crafted with Tailwind CSS.</p>
           <div className="flex flex-wrap mt-4">
@@ -31,10 +31,10 @@ const Billing = () => (
           </div>
         </div>
 
-        <div className="relative z-10 hidden lg:block">
+        <div className="relative z-5 hidden lg:block">
           <div className="mt-6 flex">
             <div className="relative flex-shrink-0 p-4">
-              <div className="relative z-10 overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
+              <div className="relative z-5 overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
                 <img className="h-[404px] w-[336px]" src="https://tailwindui.com/img/headers/templates/salient.png" />
               </div>
             </div>

@@ -1,9 +1,7 @@
 
 const Footer = () => (
-  <footer className="relative overflow-hidden bg-white w-full">
-    <div className="container max-w-screen-2xl mx-auto px-12">
-
-      <div className="border-t border-slate-900/5 py-12">
+  <footer className="relative overflow-hidden bg-slate-50 w-full border-t border-slate-900/5">
+    <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6 py-12">
 
         <div className="grid grid-cols-1 xl:grid-cols-4 gap-x-8">
 
@@ -96,8 +94,6 @@ const Footer = () => (
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">Copyright © 2023 TaxPal. All rights reserved.</p>
         </div>
-      </div>
-
     </div>
   </footer>
 );

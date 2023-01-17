@@ -1,9 +1,7 @@
-import styles, { layout } from "../constants/style";
-import Button from "./button";
 
 const CardDeal = () => (
   <section className="relative overflow-hidden bg-white w-full">
-    <div className="container max-w-screen-2xl mx-auto px-12 py-12">
+    <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6 py-12">
 
       <div className="max-w-2xl">
         <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
@@ -23,46 +21,46 @@ const CardDeal = () => (
            
             <div className="relative lg:pl-8">
               <svg aria-hidden="true" viewBox="0 0 6 6" className="absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block fill-blue-600 stroke-blue-600">
-                <path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M3 0L6 3L3 6L0 3Z" strokeWidth="2" strokeLinejoin="round"></path>
               </svg>
               <div className="relative">
                 <div className="font-mono text-sm text-blue-600">
-                  <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="true" tabindex="0" data-headlessui-state="selected" aria-controls="headlessui-tabs-panel-:r4:">
+                  <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="true" tabIndex="0" data-headlessui-state="selected" aria-controls="headlessui-tabs-panel-:r4:">
                     <span className="absolute inset-0"></span>
                     Opening Day
                   </button>
                 </div>
-                <time datetime="2022-04-04" className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900">April 4</time>
+                <time dateTime="2022-04-04" className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900">April 4</time>
               </div>
             </div>
 
             <div className="relative lg:pl-8">
               <svg aria-hidden="true" viewBox="0 0 6 6" className="absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block fill-transparent stroke-slate-400">
-                <path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M3 0L6 3L3 6L0 3Z" strokeWidth="2" strokeLinejoin="round"></path>
               </svg>
               <div className="relative">
                 <div className="font-mono text-sm text-slate-500">
-                  <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="false" tabindex="-1" data-headlessui-state="" aria-controls="headlessui-tabs-panel-:r5:">
+                  <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="false" tabIndex="-1" data-headlessui-state="" aria-controls="headlessui-tabs-panel-:r5:">
                     <span className="absolute inset-0"></span>
                     Speakers & Workshops
                   </button>
                 </div>
-                <time datetime="2022-04-05" class="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900">April 5</time>
+                <time dateTime="2022-04-05" className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900">April 5</time>
               </div>
             </div>
 
             <div className="relative lg:pl-8">
               <svg aria-hidden="true" viewBox="0 0 6 6" className="absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block fill-transparent stroke-slate-400">
-                <path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M3 0L6 3L3 6L0 3Z" strokeWidth="2" strokeLinejoin="round"></path>
               </svg>
               <div className="relative">
                 <div className="font-mono text-sm text-slate-500">
-                  <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="false" tabindex="-1" data-headlessui-state="" aria-controls="headlessui-tabs-panel-:r6:">
+                  <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="false" tabIndex="-1" data-headlessui-state="" aria-controls="headlessui-tabs-panel-:r6:">
                     <span className="absolute inset-0"></span>
                     Interviews
                   </button>
                 </div>
-                <time datetime="2022-04-06" class="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900">April 6</time>
+                <time dateTime="2022-04-06" className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900">April 6</time>
               </div>
             </div>
 
@@ -71,7 +69,7 @@ const CardDeal = () => (
         </div>
 
         <div className="lg:col-span-3">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none" role="tabpanel" tabindex="0" data-headlessui-state="selected" aria-labelledby="headlessui-tabs-tab-:r1:">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none" role="tabpanel" tabIndex="0" data-headlessui-state="selected" aria-labelledby="headlessui-tabs-tab-:r1:">
 
             <div>
               <div className="group relative h-[20rem] transform overflow-hidden rounded-3xl">
@@ -107,8 +105,7 @@ const CardDeal = () => (
                     src="https://keynote.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjaquelin-isch.880e5248.jpg&w=3840&q=75"
                     width="1120" height="560"
                     decoding="async" data-nimg="1"
-                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 svg2"
-                    style={{ "color": "transparent" }} />
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 svg2 text-transparent"/>
                   <svg viewBox="0 0 1 1">
                     <defs>
                       <clipPath clipPathUnits="objectBoundingBox" id="imgSvg2">
