@@ -11,10 +11,17 @@ module.exports = {
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
+        guindaClaro: "#BF1B23",
+        guindaOscuro: "#9b0d13" ,
+        grisClaro: "#636363",       
       },
       fontFamily: {
         poppins: ["Roboto", "sans-serif"],
+        primaSans: ["sans-serif"]
       },
+      fontWeight: {
+        boldCustomer: [400]
+      }
     },
     screens: {
       "xs": "320px",

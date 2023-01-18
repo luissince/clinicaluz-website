@@ -73,16 +73,14 @@ const CardDeal = () => (
 
             <div>
               <div className="group relative h-[20rem] transform overflow-hidden rounded-3xl">
-                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-blue-300">
-                </div>
-
-                <div className="absolute inset-0" >
-                  <img
-                    src="https://keynote.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsteven-mchail.4e94472e.jpg&w=384&q=75"
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-blue-300"></div>
+                <div className="absolute inset-0 svg1">
+                  <img alt=""
+                    src="/images/Doctores/Doctor1.png"
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
                     width="1120" height="560"
                     decoding="async" data-nimg="1"
-                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 svg1 text-transparent" />
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 text-transparent" />
                 </div>
                 <svg viewBox="0 0 1 1">
                   <defs>
@@ -92,20 +90,20 @@ const CardDeal = () => (
                   </defs>
                 </svg>
               </div>
-              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Steven McHail</h3>
-              <p className="mt-1 text-base tracking-tight text-slate-500">Designer at Globex Corporation</p>
+              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Sanchez Cueva Sergio Alfredo</h3>
+              <p className="mt-1 text-base tracking-tight text-slate-500">Director Medico</p>
             </div>
 
             <div>
               <div className="group relative h-[20rem] transform overflow-hidden rounded-3xl">
                 <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-indigo-300"></div>
-                <div className="absolute inset-0">
+                <div className="absolute inset-0 svg2">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    src="https://keynote.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjaquelin-isch.880e5248.jpg&w=3840&q=75"
+                    src="/images/Doctores/Doctor2.png"
                     width="1120" height="560"
                     decoding="async" data-nimg="1"
-                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 svg2 text-transparent"/>
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 text-transparent"/>
                   <svg viewBox="0 0 1 1">
                     <defs>
                       <clipPath clipPathUnits="objectBoundingBox" id="imgSvg2">
@@ -115,20 +113,20 @@ const CardDeal = () => (
                   </svg>
                 </div>
               </div>
-              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Jaquelin Isch</h3>
-              <p className="mt-1 text-base tracking-tight text-slate-500">UX Design at InGen</p>
+              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Silva Cayatopa Fermin</h3>
+              <p className="mt-1 text-base tracking-tight text-slate-500">Presidente Del Comite Academico</p>
             </div>
 
             <div>
               <div className="group relative h-[20rem] transform overflow-hidden rounded-3xl">
                 <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-sky-300"></div>
-                <div className="absolute inset-0">
+                <div className="absolute inset-0 svg3">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    src="https://keynote.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdianne-guilianelli.b4c5891f.jpg&w=3840&q=75"
+                    src="/images/Doctores/Doctor3.png"
                     width="1120" height="560"
                     decoding="async" data-nimg="1"
-                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 svg3" />
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110" />
                   <svg viewBox="0 0 1 1">
                     <defs>
                       <clipPath clipPathUnits="objectBoundingBox" id="imgSvg3">
@@ -138,20 +136,20 @@ const CardDeal = () => (
                   </svg>
                 </div>
               </div>
-              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Dianne Guilianelli</h3>
-              <p className="mt-1 text-base tracking-tight text-slate-500">General Manager at Initech</p>
+              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Viaña Pongo Victor Raul</h3>
+              <p className="mt-1 text-base tracking-tight text-slate-500">Jefe Del Departamento De Segmento Anterior, Cornea Y Cirugia Refractiva</p>
             </div>
 
             <div>
               <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
                 <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-blue-300"></div>
-                <div className="absolute inset-0">
+                <div className="absolute inset-0 svg1">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    src="https://keynote.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fronni-cantadore.0d04b7fe.jpg&w=3840&q=75"
+                    src="/images/Doctores/Doctor4.png"
                     width="1120" height="560"
                     decoding="async" data-nimg="1"
-                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 svg1" />
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110" />
                   <svg viewBox="0 0 1 1">
                     <defs>
                       <clipPath clipPathUnits="objectBoundingBox" id="imgSvg1">
@@ -161,20 +159,20 @@ const CardDeal = () => (
                   </svg>
                 </div>
               </div>
-              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Ronni Cantadore</h3>
-              <p className="mt-1 text-base tracking-tight text-slate-500">Design Engineer at Weyland-Yutani</p>
+              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Janeth Molina</h3>
+              <p className="mt-1 text-base tracking-tight text-slate-500">Docente Medico</p>
             </div>
 
             <div>
               <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
                 <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-indigo-300"></div>
-                <div className="absolute inset-0">
+                <div className="absolute inset-0 svg2">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    src="https://keynote.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ferhart-cockrin.3697fef6.jpg&w=3840&q=75"
+                    src="/images/Doctores/Doctor5.png"
                     width="1120" height="560"
                     decoding="async" data-nimg="1"
-                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 svg2" />
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110" />
                   <svg viewBox="0 0 1 1">
                     <defs>
                       <clipPath clipPathUnits="objectBoundingBox" id="imgSvg2">
@@ -184,20 +182,20 @@ const CardDeal = () => (
                   </svg>
                 </div>
               </div>
-              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Erhart Cockrin</h3>
-              <p className="mt-1 text-base tracking-tight text-slate-500">Product Lead at Cyberdyne Systems</p>
+              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Calderon Fernandez Adolfo</h3>
+              <p className="mt-1 text-base tracking-tight text-slate-500">Docente Medico</p>
             </div>
 
             <div>
               <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
                 <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-sky-300"></div>
-                <div className="absolute inset-0">
+                <div className="absolute inset-0 svg3">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    src="https://keynote.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fparker-johnson.3f6d7276.jpg&w=3840&q=75"
+                    src="/images/Doctores/Doctor6.png"
                     width="1120" height="560"
                     decoding="async" data-nimg="1"
-                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 svg3" />
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110" />
                   <svg viewBox="0 0 1 1">
                     <defs>
                       <clipPath clipPathUnits="objectBoundingBox" id="imgSvg3">
@@ -207,8 +205,77 @@ const CardDeal = () => (
                   </svg>
                 </div>
               </div>
-              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Parker Johnson</h3>
-              <p className="mt-1 text-base tracking-tight text-slate-500">UI Designer at MomCorp</p>
+              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Zans Ly Jhon Eduardo</h3>
+              <p className="mt-1 text-base tracking-tight text-slate-500">Medico Oftalmologo Retinologo</p>
+            </div>
+
+            <div>
+              <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-blue-300"></div>
+                <div className="absolute inset-0 svg1">
+                  <img alt=""
+                    sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    src="/images/Doctores/Doctor7.png"
+                    width="1120" height="560"
+                    decoding="async" data-nimg="1"
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110" />
+                  <svg viewBox="0 0 1 1">
+                    <defs>
+                      <clipPath clipPathUnits="objectBoundingBox" id="imgSvg1">
+                        <path d="M37.689,35a0.108,0.108,0,0,1,.07.02,0.1,0.1,0,0,1,.02.08c0,0.015,0,.6,0,0.6H37.7a0.07,0.07,0,0,0-.05.019,0.044,0.044,0,0,0-.014.041s0,0.215,0,.215l-0.123-.058V36H36.874a0.094,0.094,0,0,1-.071-0.02,0.082,0.082,0,0,1-.022-0.063V35.239h0.1a0.062,0.062,0,0,0,.065-0.051,0.084,0.084,0,0,0-.024-0.064h0.124V35h0.641Z" transform="translate(-36.781 -35)" fill="#fff" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Custodio Sheen Fabiola Medalith</h3>
+              <p className="mt-1 text-base tracking-tight text-slate-500">Medico Oftalmologo Retinologo</p>
+            </div>
+
+            <div>
+              <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-indigo-300"></div>
+                <div className="absolute inset-0 svg2">
+                  <img alt=""
+                    sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    src="/images/Doctores/Doctor8.png"
+                    width="1120" height="560"
+                    decoding="async" data-nimg="1"
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110" />
+                  <svg viewBox="0 0 1 1">
+                    <defs>
+                      <clipPath clipPathUnits="objectBoundingBox" id="imgSvg2">
+                        <path d="M37.689,35a0.108,0.108,0,0,1,.07.02,0.1,0.1,0,0,1,.02.08c0,0.015,0,.6,0,0.6H37.7a0.07,0.07,0,0,0-.05.019,0.044,0.044,0,0,0-.014.041s0,0.215,0,.215l-0.123-.058V36H36.874a0.094,0.094,0,0,1-.071-0.02,0.082,0.082,0,0,1-.022-0.063V35.239h0.1a0.062,0.062,0,0,0,.065-0.051,0.084,0.084,0,0,0-.024-0.064h0.124V35h0.641Z" transform="translate(-36.781 -35)" fill="#fff" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Macedo Rosas Marilda</h3>
+              <p className="mt-1 text-base tracking-tight text-slate-500">Docente Medico</p>
+            </div>
+
+            <div>
+              <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-sky-300"></div>
+                <div className="absolute inset-0 svg3">
+                  <img alt=""
+                    sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    src="/images/Doctores/Doctor9.png"
+                    width="1120" height="560"
+                    decoding="async" data-nimg="1"
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110" />
+                  <svg viewBox="0 0 1 1">
+                    <defs>
+                      <clipPath clipPathUnits="objectBoundingBox" id="imgSvg3">
+                        <path d="M37.689,35a0.108,0.108,0,0,1,.07.02,0.1,0.1,0,0,1,.02.08c0,0.015,0,.6,0,0.6H37.7a0.07,0.07,0,0,0-.05.019,0.044,0.044,0,0,0-.014.041s0,0.215,0,.215l-0.123-.058V36H36.874a0.094,0.094,0,0,1-.071-0.02,0.082,0.082,0,0,1-.022-0.063V35.239h0.1a0.062,0.062,0,0,0,.065-0.051,0.084,0.084,0,0,0-.024-0.064h0.124V35h0.641Z" transform="translate(-36.781 -35)" fill="#fff" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">Bastardo Guillen Luisa Veronica</h3>
+              <p className="mt-1 text-base tracking-tight text-slate-500">Jefa Del Departamento De Glaucoma</p>
             </div>
 
           </div>
