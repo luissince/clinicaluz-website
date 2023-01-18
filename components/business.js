@@ -20,7 +20,7 @@ const Business = () => (
 
         <div className="hidden lg:block relative">
           <div className="flex mb-2">
-            <img src={"/images/logo.svg"} alt="hoobank" className="w-[124px] h-[32px]" />
+          <img src={"/images/clinicaLogo2.svg"} alt="hoobank" className="w-[124px]" />
           </div>
 
           <div className="flex mb-3">
