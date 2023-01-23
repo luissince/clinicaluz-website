@@ -20,7 +20,7 @@ const Business = () => (
 
         <div className="hidden lg:block relative">
           <div className="flex mb-2">
-          <img src={"/images/clinicaLogo2.svg"} alt="hoobank" className="w-[124px]" />
+          <img src={"/images/ClinicaLaLuzLogo.svg"} alt="hoobank" className="w-[124px]" />
           </div>
 
           <div className="flex mb-3">
@@ -63,7 +63,7 @@ const Business = () => (
     <div className="lg:hidden block container max-w-screen-2xl mx-auto ss:px-12 px-6 py-12">
       <div className="relative">
         <div className="flex mb-2">
-          <img src={"/images/logo.svg"} alt="hoobank" className="w-[124px] h-[32px]" />
+          <img src={"/images/ClinicaLaLuzLogo.svg"} alt="hoobank" className="w-[124px] h-[32px]" />
         </div>
 
         <div className="flex mb-3">

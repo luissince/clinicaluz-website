@@ -4,33 +4,33 @@ const CardDeal = () => (
     <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6 py-12">
 
       <div className="max-w-2xl">
-        <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
+        <h2 className="font-display text-4xl font-medium tracking-tighter text-guindaClaro sm:text-5xl">
           Staff Médico
         </h2>
 
         <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-          Learn from the experts on the cutting-edge of deception at the most sinister companies.
+          Contamos con los mejores especialistad a nivel nacional, ofreciendo el mejor servico.
         </p>
       </div>
 
       <div className="mt-14 grid grid-cols-1 items-start gap-y-8 gap-x-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4">
         <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
           <div className="absolute bottom-0 top-2 left-0.5 hidden w-px bg-slate-200 lg:block"></div>
-         
+
           <div className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 whitespace-nowrap px-4 sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left" role="tablist" aria-orientation="vertical">
-           
+
             <div className="relative lg:pl-8">
-              <svg aria-hidden="true" viewBox="0 0 6 6" className="absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block fill-blue-600 stroke-blue-600">
+              <svg aria-hidden="true" viewBox="0 0 6 6" className="absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block fill-guindaLigth stroke-guindaLigth">
                 <path d="M3 0L6 3L3 6L0 3Z" strokeWidth="2" strokeLinejoin="round"></path>
               </svg>
               <div className="relative">
-                <div className="font-mono text-sm text-blue-600">
+                <div className="font-mono text-sm text-guindaLigth">
                   <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="true" tabIndex="0" data-headlessui-state="selected" aria-controls="headlessui-tabs-panel-:r4:">
                     <span className="absolute inset-0"></span>
-                    Opening Day
+                    Especialidad
                   </button>
                 </div>
-                <time dateTime="2022-04-04" className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900">April 4</time>
+                <a className="mt-1.5 block text-2xl font-semibold tracking-tight text-guindaOscuro">Segmento anterior, cornea <br />y cirugia refractiva</a>
               </div>
             </div>
 
@@ -42,10 +42,10 @@ const CardDeal = () => (
                 <div className="font-mono text-sm text-slate-500">
                   <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="false" tabIndex="-1" data-headlessui-state="" aria-controls="headlessui-tabs-panel-:r5:">
                     <span className="absolute inset-0"></span>
-                    Speakers & Workshops
+                    Especialidad
                   </button>
                 </div>
-                <time dateTime="2022-04-05" className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900">April 5</time>
+                <time className="mt-1.5 block text-2xl font-semibold tracking-tight text-guindaOscuro">Glaucoma</time>
               </div>
             </div>
 
@@ -57,10 +57,55 @@ const CardDeal = () => (
                 <div className="font-mono text-sm text-slate-500">
                   <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="false" tabIndex="-1" data-headlessui-state="" aria-controls="headlessui-tabs-panel-:r6:">
                     <span className="absolute inset-0"></span>
-                    Interviews
+                    Especialidad
                   </button>
                 </div>
-                <time dateTime="2022-04-06" className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900">April 6</time>
+                <time className="mt-1.5 block text-2xl font-semibold tracking-tight text-guindaOscuro">Oculoplastia</time>
+              </div>
+            </div>
+
+            <div className="relative lg:pl-8">
+              <svg aria-hidden="true" viewBox="0 0 6 6" className="absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block fill-transparent stroke-slate-400">
+                <path d="M3 0L6 3L3 6L0 3Z" strokeWidth="2" strokeLinejoin="round"></path>
+              </svg>
+              <div className="relative">
+                <div className="font-mono text-sm text-slate-500">
+                  <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="false" tabIndex="-1" data-headlessui-state="" aria-controls="headlessui-tabs-panel-:r6:">
+                    <span className="absolute inset-0"></span>
+                    Especialidad
+                  </button>
+                </div>
+                <time className="mt-1.5 block text-2xl font-semibold tracking-tight text-guindaOscuro">Retina y Vitreo</time>
+              </div>
+            </div>
+
+            <div className="relative lg:pl-8">
+              <svg aria-hidden="true" viewBox="0 0 6 6" className="absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block fill-transparent stroke-slate-400">
+                <path d="M3 0L6 3L3 6L0 3Z" strokeWidth="2" strokeLinejoin="round"></path>
+              </svg>
+              <div className="relative">
+                <div className="font-mono text-sm text-slate-500">
+                  <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="false" tabIndex="-1" data-headlessui-state="" aria-controls="headlessui-tabs-panel-:r6:">
+                    <span className="absolute inset-0"></span>
+                    Especialidad
+                  </button>
+                </div>
+                <time className="mt-1.5 block text-2xl font-semibold tracking-tight text-guindaOscuro">Oftalmologia Pediatrica</time>
+              </div>
+            </div>
+
+            <div className="relative lg:pl-8">
+              <svg aria-hidden="true" viewBox="0 0 6 6" className="absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block fill-transparent stroke-slate-400">
+                <path d="M3 0L6 3L3 6L0 3Z" strokeWidth="2" strokeLinejoin="round"></path>
+              </svg>
+              <div className="relative">
+                <div className="font-mono text-sm text-slate-500">
+                  <button className="[&:not(:focus-visible)]:focus:outline-none" role="tab" type="button" aria-selected="false" tabIndex="-1" data-headlessui-state="" aria-controls="headlessui-tabs-panel-:r6:">
+                    <span className="absolute inset-0"></span>
+                    Especialidad
+                  </button>
+                </div>
+                <time className="mt-1.5 block text-2xl font-semibold tracking-tight text-guindaOscuro">Ecografias UBM</time>
               </div>
             </div>
 
@@ -73,7 +118,7 @@ const CardDeal = () => (
 
             <div>
               <div className="group relative h-[20rem] transform overflow-hidden rounded-3xl">
-                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-blue-300"></div>
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-guindaLigth"></div>
                 <div className="absolute inset-0 svg1">
                   <img alt=""
                     src="/images/Doctores/Doctor1.png"
@@ -96,14 +141,14 @@ const CardDeal = () => (
 
             <div>
               <div className="group relative h-[20rem] transform overflow-hidden rounded-3xl">
-                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-indigo-300"></div>
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-guindaLigth"></div>
                 <div className="absolute inset-0 svg2">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
                     src="/images/Doctores/Doctor2.png"
                     width="1120" height="560"
                     decoding="async" data-nimg="1"
-                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 text-transparent"/>
+                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 text-transparent" />
                   <svg viewBox="0 0 1 1">
                     <defs>
                       <clipPath clipPathUnits="objectBoundingBox" id="imgSvg2">
@@ -119,7 +164,7 @@ const CardDeal = () => (
 
             <div>
               <div className="group relative h-[20rem] transform overflow-hidden rounded-3xl">
-                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-sky-300"></div>
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-guindaLigth"></div>
                 <div className="absolute inset-0 svg3">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -142,7 +187,7 @@ const CardDeal = () => (
 
             <div>
               <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
-                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-blue-300"></div>
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-guindaLigth"></div>
                 <div className="absolute inset-0 svg1">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -165,7 +210,7 @@ const CardDeal = () => (
 
             <div>
               <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
-                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-indigo-300"></div>
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-guindaLigth"></div>
                 <div className="absolute inset-0 svg2">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -188,7 +233,7 @@ const CardDeal = () => (
 
             <div>
               <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
-                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-sky-300"></div>
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-guindaLigth"></div>
                 <div className="absolute inset-0 svg3">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -211,7 +256,7 @@ const CardDeal = () => (
 
             <div>
               <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
-                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-blue-300"></div>
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-guindaLigth"></div>
                 <div className="absolute inset-0 svg1">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -234,7 +279,7 @@ const CardDeal = () => (
 
             <div>
               <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
-                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-indigo-300"></div>
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-guindaLigth"></div>
                 <div className="absolute inset-0 svg2">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -257,7 +302,7 @@ const CardDeal = () => (
 
             <div>
               <div className="group relative h-[20rem]  transform overflow-hidden rounded-3xl">
-                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-sky-300"></div>
+                <div className="absolute top-0 left-0 right-4 bottom-6 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-guindaLigth"></div>
                 <div className="absolute inset-0 svg3">
                   <img alt=""
                     sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"

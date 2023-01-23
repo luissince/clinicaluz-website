@@ -73,14 +73,14 @@ const Footer = () => (
               Stay on top of things with always up-to-date reporting features.
             </p>
             <p className="mt-4 text-sm text-slate-600">
-              We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.
+              We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity .
             </p>
           </div>
 
         </div>
 
         <div className="my-12">        
-          <img src={"/images/clinicaLogo1.svg"} alt="hoobank" className="w-[200px] mx-auto " />
+          <img src={"/images/ClinicaLaLuzLogo.svg"} alt="hoobank" className="w-[200px] mx-auto " />
         </div>
 
         <div className="flex flex-col items-center sm:flex-row-reverse sm:justify-between">

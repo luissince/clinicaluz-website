@@ -6,8 +6,8 @@ const Billing = () => (
     <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
       <div className="mx-auto max-w-container pt-4 lg:flex ">
         <div className="relative max-w-[40rem] pb-16 pt-16 lg:mx-0 lg:w-[40rem] lg:max-w-none lg:flex-none lg:pb-24 lg:pr-4 lg:pt-20">
-          <h1 className="text-base font-semibold leading-7 text-sky-500">By the makers of Tailwind CSS</h1>
-          <p className="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-black sm:text-5xl sm:leading-[3.5rem]">Modern website templates, crafted with Tailwind CSS.</p>
+          <h1 className="text-base font-semibold leading-7 text-sky-500">Ultimas noticias</h1>
+          <p className="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-black sm:text-5xl sm:leading-[3.5rem]">Ultimas Noticias.</p>
           <div className="flex flex-wrap mt-4">
             <div className="flex items-center text-sm font-medium text-slate-500">
               <svg fill="none" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 flex-none stroke-current text-slate-400" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><ellipse cx="16" cy="16" rx="13" ry="5"></ellipse><ellipse cx="16" cy="16" rx="13" ry="5" transform="rotate(60 16 16)"></ellipse><ellipse rx="13" ry="5" transform="matrix(-.5 .86603 .86603 .5 16 16)"></ellipse><circle cx="16" cy="16" r="2"></circle></svg>
@@ -59,8 +59,8 @@ const Billing = () => (
             </svg>
           </div>
           <div className="ml-6">
-            <h2 className="text-sm font-semibold leading-6 text-slate-900">Built with modern technologies</h2>
-            <p className="mt-2 text-sm leading-6 text-slate-700">Each template is a well-structured Next.js project, giving you a codebase that’s productive and enjoyable to work in.</p>
+            <h2 className="text-sm font-semibold leading-6 text-slate-900">Desde 1985</h2>
+            <p className="mt-2 text-sm leading-6 text-slate-700">Más de 35 años prestando la mejor atención y calidad en nuestros servicios.</p>
           </div>
         </div>
 
@@ -74,8 +74,8 @@ const Billing = () => (
             </svg>
           </div>
           <div className="ml-6">
-            <h2 className="text-sm font-semibold leading-6 text-slate-900">Built with modern technologies</h2>
-            <p className="mt-2 text-sm leading-6 text-slate-700">Each template is a well-structured Next.js project, giving you a codebase that’s productive and enjoyable to work in.</p>
+            <h2 className="text-sm font-semibold leading-6 text-slate-900">Medicos oftalmólogos</h2>
+            <p className="mt-2 text-sm leading-6 text-slate-700">Más de 50 médicos oftalmólogos sub-especialistas con la mejor capacitación y educación.</p>
           </div>
         </div>
 
@@ -89,10 +89,11 @@ const Billing = () => (
             </svg>
           </div>
           <div className="ml-6">
-            <h2 className="text-sm font-semibold leading-6 text-slate-900">Built with modern technologies</h2>
-            <p className="mt-2 text-sm leading-6 text-slate-700">Each template is a well-structured Next.js project, giving you a codebase that’s productive and enjoyable to work in.</p>
+            <h2 className="text-sm font-semibold leading-6 text-slate-900">Cirugías realizadas anualmente</h2>
+            <p className="mt-2 text-sm leading-6 text-slate-700">mas de 19000 cirugías al año, con la tasa de complicaciones más baja.</p>
           </div>
         </div>
+
 
       </div>
     </div>

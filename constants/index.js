@@ -8,25 +8,25 @@ export const navLinks = [
         title: "Nosotros",
     },
     {
-        id: "especialidades",
-        title: "Especialidades",
+        id: "cataratas",
+        title: "Cataratas",
     },
     {
-        id: "staff",
-        title: "Staff Médico",
+        id: "cirugia",
+        title: "Cirugía Refractiva",
     },
     {
-        id: "sedes",
-        title: "Sedes",
+        id: "servicios",
+        title: "Servicios",
     },
     {
-        id: "otros",
-        title: "Otros",
+        id: "equipo",
+        title: "Equipo Médico",
     },
     ,
     {
-        id: "blog",
-        title: "Blog",
+        id: "educación",
+        title: "Educación",
     },
 ];
 

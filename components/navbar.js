@@ -1,41 +1,25 @@
 import { useEffect, useState, useRef } from "react";
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon, MagnifyingGlassIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
-import { navLinks } from "../constants";
-
 
 const navigation = [
-  { name: 'Home', href: '#' },
+  { name: 'Home', href: '/' },
   { name: 'Nosotros', href: '#' },
-  { name: 'Espacialidades', href: '#' },
-  { name: 'Staff Médico', href: '#' },
-  { name: 'Sedes', href: '#' },
-  { name: 'Otros', href: '#' },
-  { name: 'Blog', href: '#' },
+  { name: 'Cataratas', href: '#' },
+  { name: 'Cirugía Refractiva', href: '#' },
+  { name: 'Servicios', href: '#' },
+  { name: 'Equipo Médico', href: '#' },
+  { name: 'Docencia', href: '/docencia' },
 ]
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [active, setActive] = useState("Home");
+  const [active, setActive] = useState("");
   const [opacity, setOpacity] = useState("bg-white/0");
   const [textColor, setTextColor] = useState("text-white");
-  const [image, setImage] = useState("clinicaLogo2.svg");
+  const [image, setImage] = useState("ClinicaLaLuzLogo.svg");
+
   useEffect(() => {
-    // const onNavBarEvent = (event) => {
-    //   if (event.currentTarget.scrollY >= 100 && event.currentTarget.scrollY < 200) {
-    //     setOpacity("bg-primary/25");
-    //   } else if (event.currentTarget.scrollY >= 200 && event.currentTarget.scrollY < 300) {
-    //     setOpacity("bg-primary/50");
-    //   } else if (event.currentTarget.scrollY >= 300 && event.currentTarget.scrollY < 400) {
-    //     setOpacity("bg-primary/75");
-    //   } else if (event.currentTarget.scrollY >= 400) {
-    //     setOpacity("bg-primary/100");
-    //   } else {
-    //     if (event.currentTarget.scrollY < 100) {
-    //       setOpacity("bg-primary/0");
-    //     }
-    //   }
-    // }
 
     const onNavBarEvent = (event) => {
       if (event.currentTarget.scrollY >= 100 && event.currentTarget.scrollY < 200) {
@@ -47,16 +31,16 @@ const Navbar = () => {
       } else if (event.currentTarget.scrollY >= 300 && event.currentTarget.scrollY < 400) {
         setOpacity("bg-white/75");
         setTextColor("text-black/100");
-        setImage("clinicaLogo1.svg");
+        setImage("ClinicaLaLuzLogo.svg");
       } else if (event.currentTarget.scrollY >= 400) {
         setOpacity("bg-white/100");
         setTextColor("text-black/100");
-        setImage("clinicaLogo1.svg");
+        setImage("ClinicaLaLuzLogo.svg");
       } else {
         if (event.currentTarget.scrollY < 100) {
           setOpacity("bg-white/0");
           setTextColor("text-white");
-          setImage("clinicaLogo2.svg");
+          setImage("ClinicaLaLuzLogo2.svg");
         }
       }
     }
@@ -74,15 +58,15 @@ const Navbar = () => {
           <img src={`/images/${image}`} alt="hoobank" className="w-[170px]" />
 
           <ul className="list-none lg:flex hidden justify-end items-center flex-1">
-            {navLinks.map((nav, index) => (
+            {navigation.map((nav, index) => (
               <li
-                key={nav.id}
+                key={nav.name}
                 className={`cursor-pointer  text-base  hover:border-b-guindaClaro py-2 border-2 border-transparent
-                    ${active === nav.title ? `${textColor} border-b-guindaClaro` : textColor} `}
-                onClick={() => setActive(nav.title)}
+                    ${active === nav.name ? `${textColor} border-b-guindaClaro` : textColor} `}
+                onClick={() => setActive(nav.name)}
               >
-                <a href={`#${nav.id}`} className="flex items-center justify-center">
-                  <ChevronDownIcon className="w-3  text-transparent " /> {nav.title} <ChevronDownIcon className="w-3 text-transparent" />
+                <a href={nav.href} className="flex items-center justify-center">
+                  <ChevronDownIcon className="w-3  text-transparent " /> {nav.name} <ChevronDownIcon className="w-3 text-transparent" />
                 </a>
               </li>
             ))}
