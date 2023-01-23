@@ -8,8 +8,8 @@ export const navLinks = [
         title: "Nosotros",
     },
     {
-        id: "cataratas",
-        title: "Cataratas",
+        id: "especialidades",
+        title: "Especialidades",
     },
     {
         id: "cirugia",

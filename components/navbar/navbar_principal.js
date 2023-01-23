@@ -4,12 +4,11 @@ import { Bars3Icon, XMarkIcon, MagnifyingGlassIcon, ChevronDownIcon } from '@her
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Nosotros', href: '#' },
-  { name: 'Cataratas', href: '#' },
-  { name: 'Cirugía Refractiva', href: '#' },
-  { name: 'Servicios', href: '#' },
+  { name: 'Nosotros', href: '/nosotros' },
+  { name: 'Especialidades', href: '#' },
+  { name: 'Pacientes', href: '#' },
   { name: 'Equipo Médico', href: '#' },
-  { name: 'Docencia', href: '/docencia' },
+  { name: 'Contactanos', href: '#' },
 ]
 
 const Navbar = () => {

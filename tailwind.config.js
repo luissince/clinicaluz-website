@@ -30,7 +30,16 @@ module.exports = {
         // x y opacidad tamaño de profundidad color, borde-> x y opacidad tamaño color
         shadowPilares: "-5px 20px 25px 10px rgb(223 36 36 / 0.1), 0 4px 6px -4px rgb(223 36 36 / 0.1)",
       },
-    },
+      animation: {
+        'animate-spin': 'spin 4s linear infinite',
+        'animate-spin-reverse': 'spin-reverse 6s linear infinite',
+      },
+      keyframes: {
+        "spin-reverse": {
+          'to': { transform: 'rotate(-1turn)' },
+        }
+      }
+    }, 
     screens: {
       "xs": "320px",
       "ss": "480px",

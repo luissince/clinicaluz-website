@@ -1,11 +1,14 @@
-import Navbar from '../components/navbar';
-import Slider from '../components/slider';
+import NavbarPrincipal from './navbar/navbar_principal';
+import NavbarSecundario from './navbar/navbar_secundario';
+import Slider from './slider';
 
-export default function header() {
+export default function header(props) {
+  console.log(props.type)
   return (
     <nav>
-      <Navbar />
-      <Slider />
+      {props.type == undefined && <NavbarPrincipal />}
+      {props.type != undefined && <NavbarSecundario />}
+      {props.type == undefined && <Slider />}
     </nav>
   )
 }
