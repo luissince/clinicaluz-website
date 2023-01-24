@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Pacientes', href: '#' },
   { name: 'Equipo Médico', href: '#' },
   { name: 'Contactanos', href: '#' },
+  { name: 'Docencia', href: '#' },
 ]
 
 const Navbar = () => {
