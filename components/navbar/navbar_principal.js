@@ -17,7 +17,7 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [opacity, setOpacity] = useState("bg-white/0");
   const [textColor, setTextColor] = useState("text-white");
-  const [image, setImage] = useState("ClinicaLaLuzLogo.svg");
+  const [image, setImage] = useState("ClinicaLaLuzLogo2.svg");
 
   useEffect(() => {
 
