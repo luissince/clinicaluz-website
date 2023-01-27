@@ -2,20 +2,22 @@ import Format from '../layout/format';
 import React from "react";
 import YouTube from "react-youtube";
 
-const opts = [{
+const opts = {
     height: "390",
     width: "640",
     playerVars: {
         autoplay: 0,
     }
     
-}]
+}
 
 function _onReady(event){
     event.target.pauseVideo();
 }
 
 function Nosotros() {
+
+    
     return (
         <Format type="nav">
             <>
@@ -103,33 +105,6 @@ function Nosotros() {
                                     participación y consulta, el compromiso de cumplir requisitos aplicables, la normativa y otros acuerdos suscritos, el comportamiento
                                     ético y transparente, el bienestar, la eficacia y la mejora continua de nuestro Sistema de Gestión de Calidad.
                                 </p>
-                                {/* <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
-                                    <div className="flex items-center justify-center sm:justify-start">
-                                        <p className="font-body text-lg font-semibold uppercase text-grey-20">
-                                            Connect with me
-                                        </p>
-                                        <div className="hidden sm:block">
-                                            <i className="bx bx-chevron-right text-2xl text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                                        <a href="/">
-                                            <AcademicCapIcon className="w-5 text-slate-400" />
-                                        </a>
-                                        <a href="/" className="pl-4">
-                                            <AcademicCapIcon className="w-5 text-slate-400" />
-                                        </a>
-                                        <a href="/" className="pl-4">
-                                            <AcademicCapIcon className="w-5 text-slate-400" />
-                                        </a>
-                                        <a href="/" className="pl-4">
-                                            <AcademicCapIcon className="w-5 text-slate-400" />
-                                        </a>
-                                        <a href="/" className="pl-4">
-                                            <AcademicCapIcon className="w-5 text-slate-400" />
-                                        </a>
-                                    </div>
-                                </div> */}
                             </div>
                             <div className="w-full sm:w-3/4 lg:w-2/5 pl-0 pt-10  lg:pt-0 ">
                                 <YouTube className='flex' videoId="I-tMFWGfQ5Q" opts={opts} onReady={_onReady}/>
@@ -277,25 +252,25 @@ function Nosotros() {
                 </div>
 
                 <div className='container max-w-screen-2xl mx-auto ss:px-12 px-6 py-12'>
-                    <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+                    <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
                         Infraestructura
                     </h2>
-                    <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+                    <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
                         Para un servicio de calidad contamos con una infraestructura de 1er nivel.
                     </h3>
 
-                    <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-                        <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                            <img src="images/infra1.png" class="w-full shadow" alt="portfolio image" />
+                    <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
+                        <a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                            <img src="images/infra1.png" className="w-full shadow" alt="portfolio image" />
                         </a>
-                        <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                            <img src="images/infra2.png" class="w-full shadow" alt="portfolio image" />
+                        <a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                            <img src="images/infra2.png" className="w-full shadow" alt="portfolio image" />
                         </a>
-                        <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                            <img src="images/infra3.png" class="w-full shadow" alt="portfolio image" />
+                        <a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                            <img src="images/infra3.png" className="w-full shadow" alt="portfolio image" />
                         </a>
-                        <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                            <img src="images/infra4.png" class="w-full shadow" alt="portfolio image" />
+                        <a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                            <img src="images/infra4.png" className="w-full shadow" alt="portfolio image" />
                         </a>
                     </div>
                 </div>

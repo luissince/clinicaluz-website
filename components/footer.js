@@ -44,9 +44,9 @@ const Footer = () => (
           <p className="mt-4 text-sm text-slate-600 flex">
             <span className="mt-[3px]">
               <svg aria-hidden="true" className="h-4 w-4 fill-slate-500 group-hover:fill-slate-700" viewBox="0 0 5.83 8.33">
-                <path class="cls-1" d="M6.8.83H3.43A1.24,1.24,0,0,0,2.2,2.07V7.93A1.24,1.24,0,0,0,3.43,9.17H6.8A1.24,1.24,0,0,0,8,7.93V2.07A1.24,1.24,0,0,0,6.8.83ZM3.43,1.4H6.8a.67.67,0,0,1,.66.67v4.7H2.77V2.07A.67.67,0,0,1,3.43,1.4ZM6.8,8.6H3.43a.67.67,0,0,1-.66-.67V7.34H7.46v.59A.67.67,0,0,1,6.8,8.6Z" transform="translate(-2.2 -0.83)" />
-                <path class="cls-1" d="M5,2.22a.23.23,0,1,0,0-.45.23.23,0,1,0,0,.45Z" transform="translate(-2.2 -0.83)" />
-                <path class="cls-1" d="M5,7.69a.23.23,0,0,0-.23.23A.23.23,0,0,0,5,8.15a.24.24,0,0,0,.23-.23A.23.23,0,0,0,5,7.69Z" transform="translate(-2.2 -0.83)" />
+                <path className="cls-1" d="M6.8.83H3.43A1.24,1.24,0,0,0,2.2,2.07V7.93A1.24,1.24,0,0,0,3.43,9.17H6.8A1.24,1.24,0,0,0,8,7.93V2.07A1.24,1.24,0,0,0,6.8.83ZM3.43,1.4H6.8a.67.67,0,0,1,.66.67v4.7H2.77V2.07A.67.67,0,0,1,3.43,1.4ZM6.8,8.6H3.43a.67.67,0,0,1-.66-.67V7.34H7.46v.59A.67.67,0,0,1,6.8,8.6Z" transform="translate(-2.2 -0.83)" />
+                <path className="cls-1" d="M5,2.22a.23.23,0,1,0,0-.45.23.23,0,1,0,0,.45Z" transform="translate(-2.2 -0.83)" />
+                <path className="cls-1" d="M5,7.69a.23.23,0,0,0-.23.23A.23.23,0,0,0,5,8.15a.24.24,0,0,0,.23-.23A.23.23,0,0,0,5,7.69Z" transform="translate(-2.2 -0.83)" />
               </svg>
             </span>
             <span className="ml-2"> (01) 613 9292</span>
@@ -83,9 +83,9 @@ const Footer = () => (
           <p className="mt-4 text-sm text-slate-600 flex">
             <span className="mt-[3px]">
               <svg aria-hidden="true" className="h-4 w-4 fill-slate-500 group-hover:fill-slate-700" viewBox="0 0 5.83 8.33">
-                <path class="cls-1" d="M6.8.83H3.43A1.24,1.24,0,0,0,2.2,2.07V7.93A1.24,1.24,0,0,0,3.43,9.17H6.8A1.24,1.24,0,0,0,8,7.93V2.07A1.24,1.24,0,0,0,6.8.83ZM3.43,1.4H6.8a.67.67,0,0,1,.66.67v4.7H2.77V2.07A.67.67,0,0,1,3.43,1.4ZM6.8,8.6H3.43a.67.67,0,0,1-.66-.67V7.34H7.46v.59A.67.67,0,0,1,6.8,8.6Z" transform="translate(-2.2 -0.83)" />
-                <path class="cls-1" d="M5,2.22a.23.23,0,1,0,0-.45.23.23,0,1,0,0,.45Z" transform="translate(-2.2 -0.83)" />
-                <path class="cls-1" d="M5,7.69a.23.23,0,0,0-.23.23A.23.23,0,0,0,5,8.15a.24.24,0,0,0,.23-.23A.23.23,0,0,0,5,7.69Z" transform="translate(-2.2 -0.83)" />
+                <path className="cls-1" d="M6.8.83H3.43A1.24,1.24,0,0,0,2.2,2.07V7.93A1.24,1.24,0,0,0,3.43,9.17H6.8A1.24,1.24,0,0,0,8,7.93V2.07A1.24,1.24,0,0,0,6.8.83ZM3.43,1.4H6.8a.67.67,0,0,1,.66.67v4.7H2.77V2.07A.67.67,0,0,1,3.43,1.4ZM6.8,8.6H3.43a.67.67,0,0,1-.66-.67V7.34H7.46v.59A.67.67,0,0,1,6.8,8.6Z" transform="translate(-2.2 -0.83)" />
+                <path className="cls-1" d="M5,2.22a.23.23,0,1,0,0-.45.23.23,0,1,0,0,.45Z" transform="translate(-2.2 -0.83)" />
+                <path className="cls-1" d="M5,7.69a.23.23,0,0,0-.23.23A.23.23,0,0,0,5,8.15a.24.24,0,0,0,.23-.23A.23.23,0,0,0,5,7.69Z" transform="translate(-2.2 -0.83)" />
               </svg>
             </span>
             <span className="ml-2"> (+51) 940440123</span>
@@ -122,9 +122,9 @@ const Footer = () => (
           <p className="mt-4 text-sm text-slate-600 flex">
             <span className="mt-[3px]">
               <svg aria-hidden="true" className="h-4 w-4 fill-slate-500 group-hover:fill-slate-700" viewBox="0 0 5.83 8.33">
-                <path class="cls-1" d="M6.8.83H3.43A1.24,1.24,0,0,0,2.2,2.07V7.93A1.24,1.24,0,0,0,3.43,9.17H6.8A1.24,1.24,0,0,0,8,7.93V2.07A1.24,1.24,0,0,0,6.8.83ZM3.43,1.4H6.8a.67.67,0,0,1,.66.67v4.7H2.77V2.07A.67.67,0,0,1,3.43,1.4ZM6.8,8.6H3.43a.67.67,0,0,1-.66-.67V7.34H7.46v.59A.67.67,0,0,1,6.8,8.6Z" transform="translate(-2.2 -0.83)" />
-                <path class="cls-1" d="M5,2.22a.23.23,0,1,0,0-.45.23.23,0,1,0,0,.45Z" transform="translate(-2.2 -0.83)" />
-                <path class="cls-1" d="M5,7.69a.23.23,0,0,0-.23.23A.23.23,0,0,0,5,8.15a.24.24,0,0,0,.23-.23A.23.23,0,0,0,5,7.69Z" transform="translate(-2.2 -0.83)" />
+                <path className="cls-1" d="M6.8.83H3.43A1.24,1.24,0,0,0,2.2,2.07V7.93A1.24,1.24,0,0,0,3.43,9.17H6.8A1.24,1.24,0,0,0,8,7.93V2.07A1.24,1.24,0,0,0,6.8.83ZM3.43,1.4H6.8a.67.67,0,0,1,.66.67v4.7H2.77V2.07A.67.67,0,0,1,3.43,1.4ZM6.8,8.6H3.43a.67.67,0,0,1-.66-.67V7.34H7.46v.59A.67.67,0,0,1,6.8,8.6Z" transform="translate(-2.2 -0.83)" />
+                <path className="cls-1" d="M5,2.22a.23.23,0,1,0,0-.45.23.23,0,1,0,0,.45Z" transform="translate(-2.2 -0.83)" />
+                <path className="cls-1" d="M5,7.69a.23.23,0,0,0-.23.23A.23.23,0,0,0,5,8.15a.24.24,0,0,0,.23-.23A.23.23,0,0,0,5,7.69Z" transform="translate(-2.2 -0.83)" />
               </svg>
             </span>
             <span className="ml-2"> (074) 227 810</span>
@@ -152,7 +152,7 @@ const Footer = () => (
           <div className="flex mt-7">
             <div className=" font-display text-xs text-slate-900 leading-7 flex">
               <span className=" ml-2">
-                <ul class="list-disc">
+                <ul className="list-disc">
                   <li className="cursor-pointer hover:text-guindaOscuro font-medium">
                     Curso Fellowship
                   </li>

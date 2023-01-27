@@ -56,7 +56,7 @@ function Retina() {
                         <div className="flex flex-wrap items-center xl:mx-28">
                             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mx-auto -mt-32">
                                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-guindaClaro">
-                                    <img alt="..." src="/images/retinaVitreo.png" class="w-full align-middle rounded-t-md " />
+                                    <img alt="..." src="/images/retinaVitreo.png" className="w-full align-middle rounded-t-md " />
                                     <blockquote className="relative p-8 mb-4">
                                         <svg className="absolute left-0 w-full block h-[95px] -top-20" viewBox="0 0 583 95" >
                                             <path d="M0,95L583,61V95H0Z" fill="#BF1B23" />
@@ -74,77 +74,77 @@ function Retina() {
                             </div>
 
                             <div className="w-full md:w-6/12 px-4">
-                                <div class="flex flex-wrap">
-                                    <div class="w-full md:w-6/12 px-4">
-                                        <div class="relative flex flex-col mt-4">
-                                            <div class="px-4 py-5 flex-auto">
-                                                <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                                <div className="flex flex-wrap">
+                                    <div className="w-full md:w-6/12 px-4">
+                                        <div className="relative flex flex-col mt-4">
+                                            <div className="px-4 py-5 flex-auto">
+                                                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                                                     <svg fill="none" stroke="#BF1B23" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"></path>
                                                     </svg>
                                                 </div>
-                                                <h6 class="text-xl mb-1 font-semibold">Retinopatía diabética</h6>
-                                                <p class="mb-4 text-blueGray-500">
+                                                <h6 className="text-xl mb-1 font-semibold">Retinopatía diabética</h6>
+                                                <p className="mb-4 text-blueGray-500">
                                                     Esta enfermedad es provocada por la diabetes, y causa el deterioro de los vasos sanguíneos del ojo. Esto provoca una especie de “engrosamiento” en la retina, dificultando la visión.
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="relative flex flex-col min-w-0">
-                                            <div class="px-4 py-5 flex-auto">
-                                                <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                                        <div className="relative flex flex-col min-w-0">
+                                            <div className="px-4 py-5 flex-auto">
+                                                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                                                     <svg fill="none" stroke="#BF1B23" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"></path>
                                                     </svg>
                                                 </div>
-                                                <h6 class="text-xl mb-1 font-semibold">
+                                                <h6 className="text-xl mb-1 font-semibold">
                                                     Retinopatía del prematuro
                                                 </h6>
-                                                <p class="mb-4 text-blueGray-500">
+                                                <p className="mb-4 text-blueGray-500">
                                                     Ocurre cuando crecen vasos sanguíneos anormales en la retina (la capa de tejido sensible a la luz ubicada en la
                                                     parte de atrás del ojo).
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="w-full md:w-6/12 px-4">
-                                        <div class="relative flex flex-col min-w-0 mt-4">
-                                            <div class="px-4 py-5 flex-auto">
-                                                <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                                    <div className="w-full md:w-6/12 px-4">
+                                        <div className="relative flex flex-col min-w-0 mt-4">
+                                            <div className="px-4 py-5 flex-auto">
+                                                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                                                     <svg fill="none" stroke="#BF1B23" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"></path>
                                                     </svg>
                                                 </div>
-                                                <h6 class="text-xl mb-1 font-semibold">Desprendimiento de retina</h6>
-                                                <p class="mb-4 text-blueGray-500">
+                                                <h6 className="text-xl mb-1 font-semibold">Desprendimiento de retina</h6>
+                                                <p className="mb-4 text-blueGray-500">
                                                     es un problema ocular que ocurre cuando la retina se separa de su posición normal en la parte de atrás del ojo
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="relative flex flex-col min-w-0">
-                                            <div class="px-4 py-5 flex-auto">
-                                                <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                                        <div className="relative flex flex-col min-w-0">
+                                            <div className="px-4 py-5 flex-auto">
+                                                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                                                     <svg fill="none" stroke="#BF1B23" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"></path>
                                                     </svg>
                                                 </div>
-                                                <h6 class="text-xl mb-1 font-semibold">Degeneración macular relacionada con la edad</h6>
-                                                <p class="mb-4 text-blueGray-500">
+                                                <h6 className="text-xl mb-1 font-semibold">Degeneración macular relacionada con la edad</h6>
+                                                <p className="mb-4 text-blueGray-500">
                                                     Es una enfermedad ocular que puede nublar la visión central. Se presenta cuando el envejecimiento daña la mácula,
                                                     la parte del ojo que controla la visión nítida frontal.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="w-full md:w-6/12 px-4">
-                                        <div class="relative flex flex-col min-w-0 mt-4">
-                                            <div class="px-4 py-5 flex-auto">
-                                                <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                                    <div className="w-full md:w-6/12 px-4">
+                                        <div className="relative flex flex-col min-w-0 mt-4">
+                                            <div className="px-4 py-5 flex-auto">
+                                                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                                                     <svg fill="none" stroke="#BF1B23" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"></path>
                                                     </svg>
                                                 </div>
-                                                <h6 class="text-xl mb-1 font-semibold">Edema macular</h6>
-                                                <p class="mb-4 text-blueGray-500">
+                                                <h6 clasclassNames="text-xl mb-1 font-semibold">Edema macular</h6>
+                                                <p className="mb-4 text-blueGray-500">
                                                     se produce cuando se acumula un exceso de líquido en la mácula, que provoca la irritación de la retina,
                                                     pudiendo ocasionar visión borrosa o distorsión de las líneas.
                                                 </p>
@@ -179,7 +179,7 @@ function Retina() {
                                         </svg>
                                     </div>
                                     <h3 className="text-3xl font-semibold text-guindaClaro">Vitrectomía</h3>
-                                    <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+                                    <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                                         La vitrectomía es un tipo de cirugía ocular que se utiliza para tratar los problemas de la retina y el humor vítreo.
                                         Durante la vitrectomía, el oftalmólogo extrae una parte o la totalidad del humor  vítreo de la parte media del ojo.
                                         El humor vítreo se reemplaza por una solución de agua salada (salina), o por una burbuja de gas, o de aceite de silicón.<br />
@@ -187,24 +187,24 @@ function Retina() {
                                         En esta cirugía el oftalmólogo puede:<br />
                                         <br />
                                     </p>
-                                    <ul class="list-disc ">
-                                        <li class="py-1">
-                                            <h4 class="text-blueGray-500">
+                                    <ul className="list-disc ">
+                                        <li className="py-1">
+                                            <h4 className="text-blueGray-500">
                                                 Quitar sangre u otra sustancia que impida que la luz se enfoque correctamente en la retina.
                                             </h4>
                                         </li>
-                                        <li class="py-1">
-                                            <h4 class="text-blueGray-500">
+                                        <li className="py-1">
+                                            <h4 className="text-blueGray-500">
                                                 Extraer tejido cicatricial que arrugue o desgarre la retina, y de esta manera produzca visión deficiente.
                                             </h4>
                                         </li>
-                                        <li class="py-1">
-                                            <h4 class="text-blueGray-500">
+                                        <li className="py-1">
+                                            <h4 className="text-blueGray-500">
                                                 Ayudar a reparar el desprendimiento (separación) de la retina de la pared del ojo.
                                             </h4>
                                         </li>
-                                        <li class="py-1">
-                                            <h4 class="text-blueGray-500">
+                                        <li className="py-1">
+                                            <h4 className="text-blueGray-500">
                                                 Extraer un objeto extraño que haya quedado en el interior del ojo como resultado de un trauma.
                                             </h4>
                                         </li>
@@ -212,19 +212,19 @@ function Retina() {
                                 </div>
                             </div>
 
-                            <div class="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-                                <img alt="..." class="max-w-full rounded-lg shadow-shadowRetina rotate-2 translate-y-16" src="/images/vitrectomia.png" />
+                            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+                                <img alt="..." className="max-w-full rounded-lg shadow-shadowRetina rotate-2 translate-y-16" src="/images/vitrectomia.png" />
                             </div>
                         </div>
 
                         <div className="items-center flex flex-wrap xl:mx-10 pt-28">
-                            <div class="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-                                <img alt="..." class="max-w-full rounded-lg shadow-shadowRetina rotate-2 translate-y-16" src="/images/antiangiogenicos.png" />
+                            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+                                <img alt="..." className="max-w-full rounded-lg shadow-shadowRetina rotate-2 translate-y-16" src="/images/antiangiogenicos.png" />
                             </div>
                             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
                                 <div className="md:pr-12">
                                     <h3 className="text-3xl font-semibold text-guindaClaro">Aplicación de inyecciones intravitreas</h3>
-                                    <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+                                    <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                                         Es una inyección de medicamento en el ojo. El interior del ojo está lleno de un líquido gelatinoso (humor vítreo).
                                         Durante este procedimiento, se inyecta medicamento en el humor vítreo, cerca de la retina, en la parte posterior del ojo.
                                         El medicamento puede tratar ciertos problemas oculares y ayudar a proteger su visión. Este método casi siempre se usa para
@@ -238,7 +238,7 @@ function Retina() {
                             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
                                 <div className="md:pr-12">
                                     <h3 className="text-3xl font-semibold text-guindaClaro">Aplicación de inyecciones intravitreas</h3>
-                                    <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+                                    <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                                         Es una inyección de medicamento en el ojo. El interior del ojo está lleno de un líquido gelatinoso (humor vítreo).
                                         Durante este procedimiento, se inyecta medicamento en el humor vítreo, cerca de la retina, en la parte posterior del ojo.
                                         El medicamento puede tratar ciertos problemas oculares y ayudar a proteger su visión. Este método casi siempre se usa para
@@ -246,8 +246,8 @@ function Retina() {
                                     </p>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-                                <img alt="..." class="max-w-full rounded-lg shadow-shadowRetina rotate-2 translate-y-16" src="/images/antiangiogenicos.png" />
+                            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+                                <img alt="..." className="max-w-full rounded-lg shadow-shadowRetina rotate-2 translate-y-16" src="/images/antiangiogenicos.png" />
                             </div>
                         </div>
                     </div>

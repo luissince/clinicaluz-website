@@ -5,9 +5,9 @@ import { navigation } from '../../constants';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [active, setActive] = useState("");
+  const [active, setActive] = useState("Home");
   const [opacity, setOpacity] = useState("bg-white/0");
-  const [textColor, setTextColor] = useState("text-white");
+  const [textColor, setTextColor] = useState("text-White");
   const [image, setImage] = useState("ClinicaLaLuzLogo2.svg");
 
   useEffect(() => {
@@ -53,7 +53,7 @@ const Navbar = () => {
               <li
                 key={nav.name}
                 className={`cursor-pointer  text-base  hover:border-b-guindaClaro py-2 border-2 border-transparent
-                    ${active === nav.name ? `${textColor} border-b-guindaClaro` : textColor} `}
+                    ${active === nav.name ? `${textColor} border-b-guindaClaro text-white` : "text-white"} `}
                 onClick={() => setActive(nav.name)}
               >
                 <a href={nav.href} className="flex items-center justify-center">
