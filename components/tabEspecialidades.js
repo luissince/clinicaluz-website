@@ -1,6 +1,9 @@
 import { Tab } from "@headlessui/react";
-import classNames from 'classNames';
 import Link from "next/link";
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
 
 export default function TabEspecialidades() {
 
@@ -8,31 +11,76 @@ export default function TabEspecialidades() {
     <div className="container px-2 py-16 sm:px-0 mx-auto">
       <Tab.Group manual >
         <Tab.List className="lg:h-16 md:h-96 w-auto mx-auto lg:flex text-center space-x-1 rounded-3xl bg-gray-100 p-1 max-w-full">
-          <Tab className={({ selected }) => classNames("relative block w-full rounded-3xl py-2.5 text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro", selected ? "bg-white outline-0" : "text-gray-600 border-0")}>
+          <Tab
+            className={({ selected }) => classNames(
+              "relative block w-full rounded-3xl py-2.5",
+              "text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro",
+              selected ? "bg-white outline-0" : "text-gray-600 border-0")}
+          >
             Retina
           </Tab>
-          <Tab className={({ selected }) => classNames("relative block w-full rounded-3xl py-2.5 text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro", selected ? "bg-white outline-0" : "text-gray-600 border-0")}>
+          <Tab
+            className={({ selected }) => classNames(
+              "relative block w-full rounded-3xl py-2.5",
+              "text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro",
+              selected ? "bg-white outline-0" : "text-gray-600 border-0")}
+          >
             Ecografia
           </Tab>
-          <Tab className={({ selected }) => classNames("relative block w-full rounded-3xl py-2.5 text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro", selected ? "bg-white outline-0" : "text-gray-600 border-0")}>
+          <Tab
+            className={({ selected }) => classNames(
+              "relative block w-full rounded-3xl py-2.5",
+              "text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro",
+              selected ? "bg-white outline-0" : "text-gray-600 border-0")}
+          >
             Segmento Anterior
           </Tab>
-          <Tab className={({ selected }) => classNames("relative block w-full rounded-3xl py-2.5 text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro", selected ? "bg-white outline-0" : "text-gray-600 border-0")}>
+          <Tab
+            className={({ selected }) => classNames(
+              "relative block w-full rounded-3xl py-2.5",
+              "text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro",
+              selected ? "bg-white outline-0" : "text-gray-600 border-0")}
+          >
             Cornea
           </Tab>
-          <Tab className={({ selected }) => classNames("relative block w-full rounded-3xl py-2.5 text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro", selected ? "bg-white outline-0" : "text-gray-600 border-0")}>
+          <Tab
+            className={({ selected }) => classNames(
+              "relative block w-full rounded-3xl py-2.5",
+              "text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro",
+              selected ? "bg-white outline-0" : "text-gray-600 border-0")}
+          >
             Orbita
           </Tab>
-          <Tab className={({ selected }) => classNames("relative block w-full rounded-3xl py-2.5 text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro", selected ? "bg-white outline-0" : "text-gray-600 border-0")}>
+          <Tab
+            className={({ selected }) => classNames(
+              "relative block w-full rounded-3xl py-2.5",
+              "text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro",
+              selected ? "bg-white outline-0" : "text-gray-600 border-0")}
+          >
             Estrabismo
           </Tab>
-          <Tab className={({ selected }) => classNames("relative block w-full rounded-3xl py-2.5 text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro", selected ? "bg-white outline-0" : "text-gray-600 border-0")}>
+          <Tab
+            className={({ selected }) => classNames(
+              "relative block w-full rounded-3xl py-2.5",
+              "text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro",
+              selected ? "bg-white outline-0" : "text-gray-600 border-0")}
+          >
             Especialidad
           </Tab>
-          <Tab className={({ selected }) => classNames("relative block w-full rounded-3xl py-2.5 text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro", selected ? "bg-white outline-0" : "text-gray-600 border-0")}>
+          <Tab
+            className={({ selected }) => classNames(
+              "relative block w-full rounded-3xl py-2.5",
+              "text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro",
+              selected ? "bg-white outline-0" : "text-gray-600 border-0")}
+          >
             Glaucoma
           </Tab>
-          <Tab className={({ selected }) => classNames("relative block w-full rounded-3xl py-2.5 text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro", selected ? "bg-white outline-0" : "text-gray-600 border-0")}>
+          <Tab
+            className={({ selected }) => classNames(
+              "relative block w-full rounded-3xl py-2.5",
+              "text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro",
+              selected ? "bg-white outline-0" : "text-gray-600 border-0")}
+          >
             Enfermedades inflamatorias
           </Tab>
         </Tab.List>
