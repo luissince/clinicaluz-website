@@ -53,14 +53,14 @@ const Slider = () => {
         height={"100%"}
         className="absolute  w-auto min-w-full min-h-full max-w-none"
       >
-        {/* <source
+        <source
           src="https://global-uploads.webflow.com/602e266b79d4be7eebca445f/6033c263d3ea081bfed6d23d_RAVINMainHeaderBG-transcode.mp4"
           type="video/mp4"
-        /> */}
-        <source
-          src="/images/ROGER.mp4"
-          type="video/mp4"
         />
+        {/* <source
+          src="https://www.youtube.com/embed/I-tMFWGfQ5Q"
+          type="video/mp4" 
+        />*/}
         Your browser does not support the video tag.
       </video>
     </div>
