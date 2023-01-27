@@ -71,9 +71,11 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <Link className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/retina">
+                            <Link
+                              className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro"
+                              href="/retina">
                               Ver mas
-                              <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                              {/* <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg> */}
                             </Link>
                           </div>
                         </div>
@@ -535,13 +537,13 @@ export default function TabEspecialidades() {
                           </div>
                           <div className="w-[calc(100%-7.5rem)]">
                             <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Servicios que ofrece el departamento de Enfermedades inflamatorias oculares</h4>
-                            <p className="mt-1 text-gray-600 dark:text-gray-400">Tratamiento de enfermedades comunes<br/>
-                              En este departamento tratamos:<br/>
-                              <br/>
-                              Uveítis, Anterior, Intermedia, Posterior<br/>
-                              ¿Qué es la Uveítis?<br/>
-                              <br/>
-                              La uveítis ocurre cuando la capa media del globo ocular se inflama (enrojece e hincha). Esta capa, llamada úvea, tiene muchos vasos sanguíneos q<br/>
+                            <p className="mt-1 text-gray-600 dark:text-gray-400">Tratamiento de enfermedades comunes<br />
+                              En este departamento tratamos:<br />
+                              <br />
+                              Uveítis, Anterior, Intermedia, Posterior<br />
+                              ¿Qué es la Uveítis?<br />
+                              <br />
+                              La uveítis ocurre cuando la capa media del globo ocular se inflama (enrojece e hincha). Esta capa, llamada úvea, tiene muchos vasos sanguíneos q<br />
                               ....
                             </p>
                           </div>

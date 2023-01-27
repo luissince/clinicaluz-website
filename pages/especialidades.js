@@ -6,7 +6,7 @@ function Especialidad() {
 
     return (
         <Format type="nav">
-            {/* <section>
+            <section>
                 <div className="bg-cover bg-[url('/images/docenciaHover.svg')] bg-center">
                     <div className="pb-24 pt-24">
                         <main className="max-w-4xl mx-auto py-32  px-6 mt-24 ">
@@ -70,7 +70,7 @@ function Especialidad() {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
         </Format>
 
