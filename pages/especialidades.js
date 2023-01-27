@@ -3,7 +3,6 @@ import TabDocencia from '../components/tabEspecialidades';
 
 function Especialidad() {
 
-
     return (
         <Format type="nav">
             <section>
