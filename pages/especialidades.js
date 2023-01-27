@@ -54,7 +54,7 @@ function Especialidad() {
                 <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
                     <div className="space-y-6 md:flex lg:items-center lg:gap-6 lg:space-y-0">
                         <div className="md:5/12 lg:w-6/12">
-                            <img className="md:-ml-8" src="/images/especialidades.png" alt="tailus stats and login components" loading="lazy" width="1779" height="1592" />
+                            <img className="md:-ml-8" src="/images/Especialidades.png" alt="tailus stats and login components" loading="lazy" width="1779" height="1592" />
                         </div>
                         <div className="md:7/12 lg:w-6/12">
                             <h2 className="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl xl:text-5xl">
