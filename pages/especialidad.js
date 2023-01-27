@@ -1,12 +1,12 @@
 import Format from '../layout/format';
 import TabDocencia from '../components/tabEspecialidades';
 
-function Especialidades() {
+function Especialidad() {
 
 
     return (
         <Format type="nav">
-            <section>
+            {/* <section>
                 <div className="bg-cover bg-[url('/images/docenciaHover.svg')] bg-center">
                     <div className="pb-24 pt-24">
                         <main className="max-w-4xl mx-auto py-32  px-6 mt-24 ">
@@ -16,8 +16,8 @@ function Especialidades() {
                                     <span className="inline bg-clip-text text-transparent bg-gradient-to-r from-guindaOscuro to-guindaLigth">altas especialidades</span>
                                 </h1>
                                 <p className="mx-auto text-slate-600 text-opacity-100 mt-5 text-xl max-w-xl">
-                                    "Mediante nuestras altas especialidades podemos darles a pacientes en situación económica vulnerable la oportunidad de acceder a los sistemas de diagnóstico, atención especializada y
-                                    procedimientos quirúrgicos con la más alta tecnología y un personal altamente calificado."
+                                    Mediante nuestras altas especialidades podemos darles a pacientes en situación económica vulnerable la oportunidad de acceder a los sistemas de diagnóstico, atención especializada y
+                                    procedimientos quirúrgicos con la más alta tecnología y un personal altamente calificado.
                                 </p>
                                 <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer">
                                     <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" >
@@ -67,13 +67,10 @@ function Especialidades() {
                             <p className="mb-12 mt-4 text-gray-600 dark:text-gray-300">
                                 Deberá acudir con cubreboca y el material, para uso personal, que considere pudiera requerir durante la entrega (lápiz y bolígrafo, pegamento, etc.)
                             </p>
-                            {/* <a href="" className="relative flex h-11 w-max items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 active:duration-75 active:before:scale-95 dark:before:bg-primaryLight">
-                                <span className="relative text-base font-semibold text-white dark:text-gray-900">Get started</span>
-                            </a> */}
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
         </Format>
 
@@ -81,4 +78,4 @@ function Especialidades() {
 
 }
 
-export default Especialidades;
+export default Especialidad;
