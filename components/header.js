@@ -4,7 +4,6 @@ import NavbarPrueba from './navbar/navbar_pruebal';
 import Slider from './slider';
 
 export default function header(props) {
-  console.log(props.type)
   return (
     <nav>
       {props.type == undefined && <NavbarPrincipal />}
