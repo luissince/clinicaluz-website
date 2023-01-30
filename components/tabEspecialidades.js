@@ -65,7 +65,7 @@ export default function TabEspecialidades() {
               "text-sm font-medium leading-5 text-gray-600 hover:text-guindaClaro",
               selected ? "bg-white outline-0" : "text-gray-600 border-0")}
           >
-            Especialidad
+            Consulta de Especialidad
           </Tab>
           <Tab
             className={({ selected }) => classNames(
@@ -118,13 +118,11 @@ export default function TabEspecialidades() {
                         </div>
 
                         <div className="flex items-center gap-6">
-                          <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <Link
-                              className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro"
-                              href="/retina">
+                          <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer " >
+                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/retina">
                               Ver mas
-                              {/* <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg> */}
-                            </Link>
+                              <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -182,7 +180,7 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="#">
+                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/ecografia">
                               Ver mas
                               <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
                             </a>
@@ -215,7 +213,7 @@ export default function TabEspecialidades() {
                       <div className="mt-12 space-y-6">
                         <div className="flex items-center gap-6">
                           <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                            <img className="m-auto h-8 w-auto" src="/images/Servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
+                            <img className="m-auto h-8 w-auto" src="/images/servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
                           </div>
                           <div className="w-[calc(100%-7.5rem)]">
                             <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Servicios que ofrecemos en el departamento de Segmento Anterior</h4>
@@ -235,7 +233,7 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="#">
+                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/segmentoAnterior">
                               Ver mas
                               <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
                             </a>
@@ -272,7 +270,7 @@ export default function TabEspecialidades() {
                       <div className="mt-12 space-y-6">
                         <div className="flex items-center gap-6">
                           <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                            <img className="m-auto h-8 w-auto" src="/images/Servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
+                            <img className="m-auto h-8 w-auto" src="/images/servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
                           </div>
                           <div className="w-[calc(100%-7.5rem)]">
                             <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Servicios que ofrecemos en el departamento de Córnea</h4>
@@ -293,7 +291,7 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="#">
+                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/cornea">
                               Ver mas
                               <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
                             </a>
@@ -330,7 +328,7 @@ export default function TabEspecialidades() {
                       <div className="mt-12 space-y-6">
                         <div className="flex items-center gap-6">
                           <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                            <img className="m-auto h-8 w-auto" src="/images/Servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
+                            <img className="m-auto h-8 w-auto" src="/images/servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
                           </div>
                           <div className="w-[calc(100%-7.5rem)]">
                             <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Servicios que ofrecemos en el departamento de Órbita</h4>
@@ -354,7 +352,7 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="#">
+                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/orbita">
                               Ver mas
                               <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
                             </a>
@@ -391,7 +389,7 @@ export default function TabEspecialidades() {
                       <div className="mt-12 space-y-6">
                         <div className="flex items-center gap-6">
                           <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                            <img className="m-auto h-8 w-auto" src="/images/Servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
+                            <img className="m-auto h-8 w-auto" src="/images/servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
                           </div>
                           <div className="w-[calc(100%-7.5rem)]">
                             <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Servicios que ofrecemos en el departamento de Estrabismo</h4>
@@ -422,7 +420,7 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="#">
+                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/estrabismo">
                               Ver mas
                               <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
                             </a>
@@ -460,7 +458,7 @@ export default function TabEspecialidades() {
                       <div className="mt-12 space-y-6">
                         <div className="flex items-center gap-6">
                           <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                            <img className="m-auto h-8 w-auto" src="/images/Servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
+                            <img className="m-auto h-8 w-auto" src="/images/servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
                           </div>
                           <div className="w-[calc(100%-7.5rem)]">
                             <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Servicios que ofrecemos en el departamento de Consulta de Especialidad</h4>
@@ -478,7 +476,7 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="#">
+                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/consultaEspecialidad">
                               Ver mas
                               <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
                             </a>
@@ -515,7 +513,7 @@ export default function TabEspecialidades() {
                       <div className="mt-12 space-y-6">
                         <div className="flex items-center gap-6">
                           <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                            <img className="m-auto h-8 w-auto" src="/images/Servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
+                            <img className="m-auto h-8 w-auto" src="/images/servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
                           </div>
                           <div className="w-[calc(100%-7.5rem)]">
                             <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Servicios que ofrecemos en el departamento de Glaucoma</h4>
@@ -545,7 +543,7 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="#">
+                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="glaucoma">
                               Ver mas
                               <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
                             </a>
@@ -581,7 +579,7 @@ export default function TabEspecialidades() {
                       <div className="mt-12 space-y-6">
                         <div className="flex items-center gap-6">
                           <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                            <img className="m-auto h-8 w-auto" src="/images/Servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
+                            <img className="m-auto h-8 w-auto" src="/images/servicio.png" alt="icon illustration" loading="lazy" width="512" height="512" />
                           </div>
                           <div className="w-[calc(100%-7.5rem)]">
                             <h4 className="text-lg font-semibold text-gray-800 dark:text-white">Servicios que ofrece el departamento de Enfermedades inflamatorias oculares</h4>
@@ -599,7 +597,7 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="#">
+                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/enfermedadesOculares">
                               Ver mas
                               <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
                             </a>

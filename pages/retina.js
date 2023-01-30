@@ -3,7 +3,7 @@ import Format from '../layout/format';
 function Retina() {
     return (
         <Format type="nav">
-            {/* <section className="header relative pt-16 items-center flex h-screen max-h-full">
+            <section className="header relative pt-16 items-center flex h-screen max-h-full">
                 <div className="container mx-auto items-center flex flex-wrap xl:mx-28">
                     <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
                         <div className="pt-32 sm:pt-0">
@@ -29,7 +29,7 @@ function Retina() {
                 </div>
 
                 <div className="flex">
-                    <img className="svg1 absolute top-8 xs:mt-8 right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-full" src="./images/docencia/retina.png" alt="..." />
+                    <img className="svg1 absolute top-8 xs:mt-8 right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-full" src="./images/especialidades/retina.png" alt="..." />
 
                     <svg viewBox="0 0 1 1">
                         <defs>
@@ -39,9 +39,9 @@ function Retina() {
                         </defs>
                     </svg>
                 </div>
-            </section> */}
+            </section>
 
-            {/* <section className="mt-48 md:mt-40 pb-40 relative bg-slate-200">
+            <section className="mt-48 md:mt-40 pb-40 relative bg-slate-200">
                 <div className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20 border-0">
                     <svg className="absolute bottom-0 overflow-hidden border-0" viewBox="0 0 2560 100">
                         <path d="M-2,102L2560,0V102H-2Z" fill="#E2E8F0" />
@@ -138,7 +138,7 @@ function Retina() {
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"></path>
                                                 </svg>
                                             </div>
-                                            <h6 clasclassNames="text-xl mb-1 font-semibold">Edema macular</h6>
+                                            <h6 className="text-xl mb-1 font-semibold">Edema macular</h6>
                                             <p className="mb-4 text-blueGray-500">
                                                 se produce cuando se acumula un exceso de líquido en la mácula, que provoca la irritación de la retina,
                                                 pudiendo ocasionar visión borrosa o distorsión de las líneas.
@@ -309,7 +309,7 @@ function Retina() {
                         </p>
                     </div>
                 </div>
-            </section> */}
+            </section>
         </Format>
     )
 }

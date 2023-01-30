@@ -46,14 +46,16 @@ const Navbar = () => {
     <div className={`fixed z-20 w-full ${opacity}`}>
       <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
         <div className="flex py-6 justify-between items-center">
+          <a href="/" className="cursor-pointer">
           <img src={`/images/${image}`} alt="hoobank" className="w-[170px]" />
+          </a>
 
           <ul className="list-none lg:flex hidden justify-end items-center flex-1">
             {navigation.map((nav, index) => (
               <li
                 key={nav.name}
-                className={`cursor-pointer  text-base  hover:border-b-guindaClaro py-2 border-2 border-transparent
-                    ${active === nav.name ? `${textColor} border-b-guindaClaro text-white` : "text-white"} `}
+                className={`cursor-pointer  text-base  hover:border-b-guindaClaro py-2 border-2 border-transparent text-white
+                    ${active === nav.name ? `${textColor} border-b-guindaClaro` : textColor} `}
                 onClick={() => setActive(nav.name)}
               >
                 <a href={nav.href} className="flex items-center justify-center">
