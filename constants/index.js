@@ -6,5 +6,5 @@ export const navigation = [
     { name: 'Pacientes', href: '#' },
     { name: 'Equipo Médico', href: '#' },
     { name: 'Contactanos', href: '#' },
-    { name: 'Docencia', href: '#' },
+    { name: 'Docencia', href: '/docencia' },
   ]
