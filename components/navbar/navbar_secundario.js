@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon, MagnifyingGlassIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
 import { navigation } from '../../constants';
+import Link from "next/link";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,9 +12,9 @@ const Navbar = () => {
     <div className={`fixed z-20 w-full bg-white/100`}>
       <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
         <div className="flex py-6 justify-between items-center">
-          <a href="/" className="cursor-pointer">
+          <Link href="/" className="cursor-pointer">
             <img src={`/images/logoOftalmologia2.svg`} alt="hoobank" className="w-[170px]" />
-          </a>
+          </Link>
 
           <ul className="list-none lg:flex hidden justify-end items-center flex-1">
             {navigation.map((nav, index) => (

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Format from '../layout/format';
 
 function FellowRetina() {
@@ -14,9 +15,9 @@ function FellowRetina() {
                                 Busca como principal objetivo promover e incentivar la prevención, tratamiento y rehabilitación de las patologías que afectan la retina
                                 y el vitreo conformando una red de especialista y así dar respuesta a las necesidades asistenciales del sistema.
                             </p>
-                            <a href="/docencia" className="w-full py-4 md:py-5 px-8 lg:px-10 bg-white font-medium text-guindaOscuro hover:text-guindaClaro text-base lg:text-xl tracking-wider uppercase rounded-full text-center inline-block mt-6 lg:mt-10 shadow-md hover:shadow transition duration-300 border border-white hover:border-guindaClaro">
+                            <Link href="/docencia" className="w-full py-4 md:py-5 px-8 lg:px-10 bg-white font-medium text-guindaOscuro hover:text-guindaClaro text-base lg:text-xl tracking-wider uppercase rounded-full text-center inline-block mt-6 lg:mt-10 shadow-md hover:shadow transition duration-300 border border-white hover:border-guindaClaro">
                                 Volver a Docencia
-                            </a>
+                            </Link>
                         </div>
                         <div className="w-full sm:w-5/6 lg:w-1/2 mt-10">
                             <img src="/images/illustration.svg" alt="hero illustration" className="w-full h-auto" />

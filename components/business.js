@@ -1,4 +1,5 @@
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 
 const Business = () => (
   <section className={`relative flex flex-col items-center justify-center overflow-hidden bg-[#23184f] xl:h-[600px] 2xl:h-[700px]`}>
@@ -30,17 +31,19 @@ const Business = () => (
 
           <div className="w-[24rem] mt-6">
             <p className="text-lg py-2 text-slate-700 leading-6 animate-pulse">
-              El ojo es el órgano de la vista. Éste es un globo hueco casi esférico lleno de líquidos (humores). La capa o túnica externa 
-              (la esclerótica o blanco del ojo y la córnea) es fibrosa y protectora. La capa de la media (compuesta por la coroides, el cuerpo ciliar y el iris) 
+              El ojo es el órgano de la vista. Éste es un globo hueco casi esférico lleno de líquidos (humores). La capa o túnica externa
+              (la esclerótica o blanco del ojo y la córnea) es fibrosa y protectora. La capa de la media (compuesta por la coroides, el cuerpo ciliar y el iris)
               es vascular.
             </p>
           </div>
 
           <div className="flex mt-28">
-            <a href="/especialidades0" className="flex">
-              <p className="text-xl py-2 text-slate-700 mr-2">Nuestras especialidades</p> <ChevronRightIcon className="w-5 text-slate-400" />
-            </a>
-            
+            <Link href="/especialidades" className="flex">
+              <>
+                <p className="text-xl py-2 text-slate-700 mr-2">Nuestras especialidades</p>
+                <ChevronRightIcon className="w-5 text-slate-400" />
+              </>
+            </Link>
           </div>
         </div>
 

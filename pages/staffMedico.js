@@ -1,5 +1,6 @@
 import Format from '../layout/format';
 import { useState } from "react";
+import Link from 'next/link';
 
 function StaffMedico() {
 
@@ -21,11 +22,11 @@ function StaffMedico() {
                                 Nuestros mejores medicos al cuidado de tus ojos y tu salud; disponemos de más de 50 médicos, especializados para el cuidado de tus ojos.
                             </p>
                             <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
-                                <a href="/docencia" className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-guindaClaro before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
+                                <Link href="/docencia" className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-guindaClaro before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
                                     <span className="relative text-base font-semibold text-white">
                                         Sé parte de nuestro equipo médico
                                     </span>
-                                </a>
+                                </Link>
                             </div>
                             <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex mx-auto items-center justify-center">
                                 <div className="text-center">

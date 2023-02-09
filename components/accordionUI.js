@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowDownCircleIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
-const AccordionUI = ({ title, id, children, index, setIndex}) => {
+const AccordionUI = ({ title, id, child, index, setIndex}) => {
     const handleSetIndex = (id) => index !== id && setIndex(id);
 
     const closeWindow = (id) => setIndex(id);
@@ -25,11 +25,11 @@ const AccordionUI = ({ title, id, children, index, setIndex}) => {
             {
                 index === id &&
                 (<div className="bg-indigo-50 px-10 font-semibold text-slate-500 w-full h-auto rounded-md border-l-4 py-4 border-blue-300 mb-2">
-                    {children}
+                    {child}
                 </div>)
             }
         </>
-    )
+    );
 
 };
 

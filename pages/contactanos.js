@@ -127,7 +127,7 @@ function Contactanos() {
                     <div className="relative my-16 md:my-20 lg:my-16 xl:mx-28">
                         <div className="flex flex-col-reverse justify-between lg:flex-row">
                             <div className="w-full">
-                                <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Avenida%20Arequipa%201148,%20Lima,%20Per%C3%BA+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                                <iframe width="100%" height="600" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Avenida%20Arequipa%201148,%20Lima,%20Per%C3%BA+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                                     {/* <a href="https://www.gps.ie/sport-gps/">gps watches</a> */}
                                 </iframe>
                             </div>

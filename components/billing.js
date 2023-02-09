@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 const Billing = () => (
   <section className="relative overflow-hidden bg-slate-50 w-full border-b border-slate-900/5">
@@ -35,16 +36,16 @@ const Billing = () => (
           <div className="mt-6 flex">
             <div className="relative flex-shrink-0 p-4">
               <div className="relative z-5 overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
-                <a href="https://retinatoday.com/articles/2021-nov-dec/an-aggressive-presentation-of-proliferative-retinopathy" target="_blank">
+                <Link href="https://retinatoday.com/articles/2021-nov-dec/an-aggressive-presentation-of-proliferative-retinopathy" target="_blank">
                   <img className="h-[404px] w-[336px]" src="/images/noticia1.png" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="relative mt-14 flex-shrink-0 p-4">
               <div className="overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
-                <a href="https://retinatoday.com/" target="_blank">
+                <Link href="https://retinatoday.com/" target="_blank">
                   <img className="h-[404px] w-[336px]" src="/images/noticia2.png" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
