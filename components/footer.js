@@ -176,7 +176,7 @@ const Footer = () => (
       </div>
 
       <div className="my-12">
-        <img src={"/images/ClinicaLaLuzLogo.svg"} alt="hoobank" className="w-[200px] mx-auto " />
+        <img src={"/images/logoOftalmologia2.svg"} alt="hoobank" className="w-[200px] mx-auto " />
       </div>
 
       <div className="flex flex-col items-center sm:flex-row-reverse sm:justify-between">

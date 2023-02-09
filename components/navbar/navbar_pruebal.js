@@ -8,7 +8,7 @@ function NavbarPrueba() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [opacity, setOpacity] = useState("bg-white/0");
   const [textColor, setTextColor] = useState("text-White");
-  const [image, setImage] = useState("ClinicaLaLuzLogo2.svg");
+  const [image, setImage] = useState("logoOftalmologia.svg");
 
 
   useEffect(() => {
@@ -20,19 +20,20 @@ function NavbarPrueba() {
       } else if (event.currentTarget.scrollY >= 200 && event.currentTarget.scrollY < 300) {
         setOpacity("bg-white/50");
         setTextColor("text-black/100");
+        setImage("logoOftalmologia2.svg");
       } else if (event.currentTarget.scrollY >= 300 && event.currentTarget.scrollY < 400) {
         setOpacity("bg-white/75");
         setTextColor("text-black/100");
-        setImage("ClinicaLaLuzLogo.svg");
+        setImage("logoOftalmologia2.svg");
       } else if (event.currentTarget.scrollY >= 400) {
         setOpacity("bg-white/100");
         setTextColor("text-black/100");
-        setImage("ClinicaLaLuzLogo.svg");
+        setImage("logoOftalmologia2.svg");
       } else {
         if (event.currentTarget.scrollY < 100) {
           setOpacity("bg-white/0");
           setTextColor("text-white");
-          setImage("ClinicaLaLuzLogo2.svg");
+          setImage("logoOftalmologia.svg");
         }
       }
     }

@@ -7,35 +7,40 @@ const Business = () => (
       <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
 
         <div className="mb-12 lg:mt-0 mt-6 flex flex-wrap gap-8 ">
-          <a className=" border-b-4 border-b-white px-3 py-2 text-base text-white transition-colors  hover:text-gray-500 animate-pulse" to="/#features">
+          <a className=" border-b-4 border-b-white px-3 py-2 text-base text-black transition-colors  hover:text-gray-500 animate-pulse" to="/#features">
             <span className="relative z-10">Ravin Inspect</span>
           </a>
-          <a className=" border-b-4 border-b-white px-3 py-2 text-base text-white transition-colors  hover:text-gray-500" to="/#reviews">
+          <a className=" border-b-4 border-b-white px-3 py-2 text-base text-black transition-colors  hover:text-gray-500" to="/#reviews">
             <span className="relative z-10">Ravin Autoscan</span>
           </a>
-          <a className=" border-b-4 border-b-white px-3 py-2 text-base text-white transition-colors  hover:text-gray-500" to="/#pricing">
+          <a className=" border-b-4 border-b-white px-3 py-2 text-base text-black transition-colors  hover:text-gray-500" to="/#pricing">
             <span className="relative z-10">Ravin Eye</span>
           </a>
         </div>
 
         <div className="hidden lg:block relative">
           <div className="flex mb-2">
-          <img src={"/images/ClinicaLaLuzLogo.svg"} alt="hoobank" className="w-[124px]" />
+            <img src={"/images/logoOftalmologia2.svg"} alt="hoobank" className="w-[124px]" />
           </div>
 
           <div className="flex mb-3">
-            <p className=" text-white font-bold text-5xl">Autoscan</p>
-            <p className=" text-white font-normal text-base">TM</p>
+            <p className=" text-black font-bold text-5xl">oftalmólogia</p>
+            {/* <p className=" text-black font-normal text-base">TM</p> */}
           </div>
 
           <div className="w-[24rem] mt-6">
-            <p className="text-lg py-2 text-gray-300 leading-6 animate-pulse">
-              The most powerful vehicle inspection app yet. Triggered by a link to your mobile browser. Allows even non-professionals to grade and report vehicle condition, anywhere.
+            <p className="text-lg py-2 text-slate-700 leading-6 animate-pulse">
+              El ojo es el órgano de la vista. Éste es un globo hueco casi esférico lleno de líquidos (humores). La capa o túnica externa 
+              (la esclerótica o blanco del ojo y la córnea) es fibrosa y protectora. La capa de la media (compuesta por la coroides, el cuerpo ciliar y el iris) 
+              es vascular.
             </p>
           </div>
 
           <div className="flex mt-28">
-            <p className="text-xl py-2 text-gray-200 mr-2">More About Our Tools</p> <ChevronRightIcon className="w-5 text-slate-400" />
+            <a href="/especialidades0" className="flex">
+              <p className="text-xl py-2 text-slate-700 mr-2">Nuestras especialidades</p> <ChevronRightIcon className="w-5 text-slate-400" />
+            </a>
+            
           </div>
         </div>
 
@@ -51,8 +56,12 @@ const Business = () => (
           width={"100%"}
           height={"100%"}
         >
-          <source
+          {/* <source
             src="https://global-uploads.webflow.com/602e266b79d4be7eebca445f/6326f28fe3580bdcf109862c_Ravin-Eye.mp4"
+            type="video/mp4"
+          /> */}
+          <source
+            src="/images/ojo3D.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -63,7 +72,7 @@ const Business = () => (
     <div className="lg:hidden block container max-w-screen-2xl mx-auto ss:px-12 px-6 py-12">
       <div className="relative">
         <div className="flex mb-2">
-          <img src={"/images/ClinicaLaLuzLogo.svg"} alt="hoobank" className="w-[124px] h-[32px]" />
+          <img src={"/images/logoOftalmologia2.svg"} alt="hoobank" className="w-[124px] h-[32px]" />
         </div>
 
         <div className="flex mb-3">

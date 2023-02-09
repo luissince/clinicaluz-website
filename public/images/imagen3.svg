@@ -14,13 +14,13 @@
     <g filter="url(#c)">
       <path d="M2 16a8 8 0 0 1 8-8h140a8 8 0 0 1 8 8v72a8 8 0 0 1-8 8H10a8 8 0 0 1-8-8V16Z" fill="#0F172A" />
     </g>
-    <path fill-rule="evenodd" clip-rule="evenodd"
+    <path fillRule="evenodd" clip-rule="evenodd"
       d="M12 8h1v69h-1V8Zm17 0h1v69h-1V8Zm18 0h-1v69h1V8Zm16 0h1v69h-1V8Zm18 0h-1v69h1V8Zm16 0h1v69h-1V8Zm18 0h-1v69h1V8Zm16 0h1v69h-1V8Zm18 0h-1v69h1V8Z"
       fill="#1E293B" />
-    <path fill-rule="evenodd" clip-rule="evenodd"
+    <path fillRule="evenodd" clip-rule="evenodd"
       d="M158 18H2v1h156v-1Zm0 17H2v1h156v-1ZM2 52h156v1H2v-1Zm156 17H2v1h156v-1Z" fill="#1E293B" />
     <rect x="40" y="85" width="80" height="2" rx="1" fill="#1E293B" />
-    <path fill-rule="evenodd" clip-rule="evenodd"
+    <path fillRule="evenodd" clip-rule="evenodd"
       d="M78 88a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm-37-3a1 1 0 1 0 0 2h32a1 1 0 1 0 0-2H41Z" fill="#94A3B8" />
     <path
       d="m90.005 60.172 1.096-13.589c.127-1.583 2.415-2.163 3.469-.88l9.055 11.035c1.067 1.3-.308 3.066-2.059 2.643l-4.054-.98c-.748-.18-1.545.055-2.021.597l-2.054 2.34c-1.165 1.328-3.567.512-3.431-1.166Z"

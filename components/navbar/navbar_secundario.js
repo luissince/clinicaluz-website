@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
         <div className="flex py-6 justify-between items-center">
           <a href="/" className="cursor-pointer">
-            <img src={`/images/ClinicaLaLuzLogo.svg`} alt="hoobank" className="w-[170px]" />
+            <img src={`/images/logoOftalmologia2.svg`} alt="hoobank" className="w-[170px]" />
           </a>
 
           <ul className="list-none lg:flex hidden justify-end items-center flex-1">
@@ -53,7 +53,7 @@ const Navbar = () => {
               <div className="flex">
                 <a href="#" className="">
                   <span className="sr-only">Your Company</span>
-                  <img src={`/images/ClinicaLaLuzLogo.svg`} alt="hoobank" className="w-[170px]" />
+                  <img src={`/images/logoOftalmologia2.svg`} alt="hoobank" className="w-[170px]" />
                 </a>
               </div>
               <div className="flex">

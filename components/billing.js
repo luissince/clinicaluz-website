@@ -19,7 +19,7 @@ const Billing = () => (
             </div>
           </div>
           <p className="mt-4 text-base leading-7 text-slate-600">
-            Visually-stunning, easy to customize site templates built with React and Next.js. The perfect starting point for your next project and the ultimate resource for learning how experts build real websites with Tailwind CSS.
+            Consulta las ultimas noticias; relacionadas al área de oftalmologia; en nuestro canal dedicado a la información é investiacion.            
           </p>
           <div className="mt-8 flex gap-4">
             <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700">
@@ -35,12 +35,16 @@ const Billing = () => (
           <div className="mt-6 flex">
             <div className="relative flex-shrink-0 p-4">
               <div className="relative z-5 overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
-                <img className="h-[404px] w-[336px]" src="https://tailwindui.com/img/headers/templates/salient.png" />
+                <a href="https://retinatoday.com/articles/2021-nov-dec/an-aggressive-presentation-of-proliferative-retinopathy" target="_blank">
+                  <img className="h-[404px] w-[336px]" src="/images/noticia1.png" />
+                </a>
               </div>
             </div>
             <div className="relative mt-14 flex-shrink-0 p-4">
               <div className="overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
-                <img className="h-[404px] w-[336px]" src="https://tailwindui.com/img/headers/templates/keynote.png" />
+                <a href="https://retinatoday.com/" target="_blank">
+                  <img className="h-[404px] w-[336px]" src="/images/noticia2.png" />
+                </a>
               </div>
             </div>
           </div>

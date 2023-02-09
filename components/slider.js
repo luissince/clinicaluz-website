@@ -16,11 +16,11 @@ const Slider = () => {
           </p>
 
           <div className="flex items-center justify-start mt-5">
-            <button className="flex items-center justify-center  border border-transparent bg-slate-500/[0.2] px-5 py-2 text-sm font-medium text-slate-400 shadow-sm hover:bg-slate-900 mr-3">
+            <button className="flex items-center justify-center  border border-transparent bg-slate-500/[0.2] px-5 py-2 text-sm font-medium text-slate-300 shadow-sm hover:bg-guindaOscuro mr-3">
               Reserva una Cita
             </button>
 
-            <button className="flex items-center justify-center  border border-transparent bg-slate-500/[0.2] px-5 py-2 text-sm font-medium text-slate-400 shadow-sm hover:bg-slate-900 ml-3">
+            <button className="flex items-center justify-center  border border-transparent bg-slate-500/[0.2] px-5 py-2 text-sm font-medium text-slate-300 shadow-sm hover:bg-guindaOscuro ml-3">
               Nuestros Horarios
             </button>
           </div>
@@ -53,8 +53,12 @@ const Slider = () => {
         height={"100%"}
         className="absolute  w-auto min-w-full min-h-full max-w-none"
       >
-        <source
+        {/* <source
           src="https://global-uploads.webflow.com/602e266b79d4be7eebca445f/6033c263d3ea081bfed6d23d_RAVINMainHeaderBG-transcode.mp4"
+          type="video/mp4"
+        /> */}
+        <source
+          src="/images/video.mp4"
           type="video/mp4"
         />
         {/* <source

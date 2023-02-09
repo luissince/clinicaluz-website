@@ -174,10 +174,10 @@ function EnfermedadesOculares() {
                     </div>
                 </div>
 
-                <div class="container mx-auto overflow-hidden pb-20">
-                    <div class="flex flex-wrap items-center">
-                        <div class="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-                            <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                <div className="container mx-auto overflow-hidden pb-20">
+                    <div className="flex flex-wrap items-center">
+                        <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+                            <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                                 <svg className="h-8 w-8 text-red-500" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" />
                                     <path d="M8 16v-4a4 4 0 0 1 8 0v4" />
@@ -185,7 +185,7 @@ function EnfermedadesOculares() {
                                     <rect x="6" y="16" width="12" height="4" rx="1" />
                                 </svg>
                             </div>
-                            <h3 class="text-3xl mb-2 font-semibold leading-normal">
+                            <h3 className="text-3xl mb-2 font-semibold leading-normal">
                                 Los principales estudios que realizamos son:
                             </h3>
                             <ul className="list-disc ml-3 mt-2">
