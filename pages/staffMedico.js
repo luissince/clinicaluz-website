@@ -18,7 +18,7 @@ function StaffMedico() {
                     <div className="relative pt-36 ml-auto">
                         <div className="lg:w-2/3 text-center mx-auto">
                             <h1 className="text-guindaClaro font-bold text-5xl md:text-6xl xl:text-7xl">Staff Medicos <span className="text-guindaClaro ">oftalmologia.</span></h1>
-                            <p className="mt-8 text-xl text-gray-700 dark:text-gray-300">
+                            <p className="mt-8 text-xl text-gray-700">
                                 Nuestros mejores medicos al cuidado de tus ojos y tu salud; disponemos de más de 50 médicos, especializados para el cuidado de tus ojos.
                             </p>
                             <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
@@ -28,7 +28,7 @@ function StaffMedico() {
                                     </span>
                                 </Link>
                             </div>
-                            <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex mx-auto items-center justify-center">
+                            <div className="hidden py-8 mt-16 border-y border-gray-800 sm:flex mx-auto items-center justify-center">
                                 <div className="text-center">
                                     <h6 className=" font-display text-4xl font-medium tracking-tighter text-guindaClaro sm:text-5xl">Staff Médico</h6>
                                 </div>
