@@ -28,7 +28,7 @@ function StaffMedico() {
                                     </span>
                                 </Link>
                             </div>
-                            <div className="hidden py-8 mt-16 border-y border-gray-800 sm:flex mx-auto items-center justify-center">
+                            <div className="hidden py-8 mt-16 border-y border-gray-100 sm:flex mx-auto items-center justify-center">
                                 <div className="text-center">
                                     <h6 className=" font-display text-4xl font-medium tracking-tighter text-guindaClaro sm:text-5xl">Staff Médico</h6>
                                 </div>
