@@ -119,11 +119,12 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer " >
-                            <Link className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/retina">
-                              <>
+                            <Link
+                              href="/retina">
+                              <div className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro">
                                 <span>Ver mas</span>
                                 <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
-                              </>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -182,9 +183,12 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <Link className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/ecografia">
-                              Ver mas
-                              <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                            <Link
+                              href="/ecografia">
+                              <div className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro">
+                                <span>Ver mas</span>
+                                <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -235,9 +239,12 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <Link className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/segmentoAnterior">
-                              Ver mas
-                              <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                            <Link
+                              href="/segmentoAnterior">
+                              <div className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro">
+                                <span>Ver mas</span>
+                                <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -293,9 +300,12 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <Link className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/cornea">
-                              Ver mas
-                              <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                            <Link
+                              href="/cornea">
+                              <div className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro">
+                                <span>Ver mas</span>
+                                <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -354,9 +364,12 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <Link className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/orbita">
-                              Ver mas
-                              <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                            <Link
+                              href="/orbita">
+                              <div className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro">
+                                <span>Ver mas</span>
+                                <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -422,9 +435,12 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <Link className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/estrabismo">
-                              Ver mas
-                              <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                            <Link
+                              href="/estrabismo">
+                              <div className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro">
+                                <span>Ver mas</span>
+                                <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -478,9 +494,12 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <Link className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/consultaEspecialidad">
-                              Ver mas
-                              <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                            <Link
+                              href="/consultaEspecialidad">
+                              <div className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro">
+                                <span>Ver mas</span>
+                                <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -545,10 +564,13 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <a className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="glaucoma">
-                              Ver mas
-                              <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
-                            </a>
+                            <Link
+                              href="/glaucoma">
+                              <div className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro">
+                                <span>Ver mas</span>
+                                <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                              </div>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -599,9 +621,12 @@ export default function TabEspecialidades() {
 
                         <div className="flex items-center gap-6">
                           <div className="max-w-md mx-auto flex justify-center mt-8 rounded-md cursor-pointer" >
-                            <Link className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro" href="/enfermedadesOculares">
-                              Ver mas
-                              <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                            <Link
+                              href="/enfermedadesOculares">
+                              <div className="flex items-center justify-center w-full py-3 font-medium text-white rounded-md text-lg px-10 bg-guindaOscuro hover:bg-guindaClaro">
+                                <span>Ver mas</span>
+                                <svg className="h-8 w-8 text-white pt-1" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <polyline points="7 7 12 12 7 17" />  <polyline points="13 7 18 12 13 17" /></svg>
+                              </div>
                             </Link>
                           </div>
                         </div>
