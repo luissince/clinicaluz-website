@@ -32,10 +32,10 @@ function Especialidad() {
             <section className="mt-16" id="empecemos">
                 <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
                     <div className="text-center">
-                        <h2 className="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl xl:text-5xl">
+                        <h2 className="text-3xl font-bold text-gray-800 md:text-4xl xl:text-5xl">
                             Sub-Especialidades
                         </h2>
-                        <p className="mx-auto mt-6 text-gray-700 dark:text-gray-300 md:w-3/4 lg:w-3/5">
+                        <p className="mx-auto mt-6 text-gray-700 md:w-3/4 lg:w-3/5">
                             Son cursos que se realizan después de haber concluido una especialidad médica, con el propósito de elevar el nivel de conocimientos,
                             el dominio de habilidades y destrezas en un campo específico de la especialidad.
                         </p>
@@ -57,13 +57,13 @@ function Especialidad() {
                             <img className="md:-ml-8" src="/images/Especialidades.png" alt="tailus stats and login components" loading="lazy" width="1779" height="1592" />
                         </div>
                         <div className="md:7/12 lg:w-6/12">
-                            <h2 className="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl xl:text-5xl">
+                            <h2 className="text-3xl font-bold text-gray-800 md:text-4xl xl:text-5xl">
                                 Requisitos para alguna especialidad
                             </h2>
-                            <p className="mt-8 text-gray-600 dark:text-gray-300">
+                            <p className="mt-8 text-gray-600">
                                 Los documentos deberán ser entregados, COMPLETOS, por el interesado, en la Jefatura de Enseñanza de Posgrado.
                             </p>
-                            <p className="mb-12 mt-4 text-gray-600 dark:text-gray-300">
+                            <p className="mb-12 mt-4 text-gray-600">
                                 Deberá acudir con cubreboca y el material, para uso personal, que considere pudiera requerir durante la entrega (lápiz y bolígrafo, pegamento, etc.)
                             </p>
                         </div>

@@ -7,34 +7,36 @@ function FellowSegmentoAnterior() {
             <section>
                 <div className="bg-bottom bg-cover bg-no-repeat w-full h-full bg-[url('/images/fondoFellowShip.png')]">
                     {/* Header */}
-                    <div className="container mx-auto px-4 pt-32 sm:pt-44 md:pt-20 flex flex-col lg:flex-row justify-start lg:justify-between items-center">
-                        <div className="lg:w-2/5 text-center  lg:text-left md:pt-10">
+                    <div className="container mx-auto px-4 pt-32 sm:pt-44 md:pt-20 flex flex-col lg:flex-row justify-start lg:justify-between items-center ">
+                        <div className="lg:w-2/5 text-center  lg:text-left md:pt-10 mx-20">
                             <h1 className="font-medium text-white text-4xl lg:text-5xl xl:text-6xl tracking-tight">
                                 FellowShip <br /> Segmento Anterior</h1>
                             <p className="font-light text-white text-lg lg:text-2xl xl:text-3xl tracking-wider leading-tight pt-5">
                                 El área médica de córnea y segmento anterior trata las enfermedades y condiciones de salud de la córnea, el cristalino y
                                 la conjuntiva
                             </p>
-                            <Link href="/docencia" className="w-full py-4 md:py-5 px-8 lg:px-10 bg-white font-medium text-guindaOscuro hover:text-guindaClaro text-base lg:text-xl tracking-wider uppercase rounded-full text-center inline-block mt-6 lg:mt-10 shadow-md hover:shadow transition duration-300 border border-white hover:border-guindaClaro">
-                                Volver a Docencia
+                            <Link href="/docencia">
+                                <a className="w-full py-4 md:py-5 px-8 lg:px-10 bg-white font-medium text-guindaOscuro hover:text-guindaClaro text-base lg:text-xl tracking-wider uppercase rounded-full text-center inline-block mt-6 lg:mt-10 shadow-md hover:shadow transition duration-300 border border-white hover:border-guindaClaro">
+                                    Volver a Docencia
+                                </a>
                             </Link>
                         </div>
-                        <div className="w-full sm:w-5/6 lg:w-1/2 mt-10">
+                        <div className="w-full sm:w-5/6 lg:w-1/2 mt-10 mx-20">
                             <img src="/images/illustration.svg" alt="hero illustration" className="w-full h-auto" />
                         </div>
                     </div>
                 </div>
 
                 {/* Body */}
-                <div className="relative pt-20">
+                <div className="relative pt-20 px-28">
                     <div className="bg-cover bg-center bg-no-repeat w-[32rem] h-[32rem] absolute top-0 left-0 -ml-56 mt-32 bg-[url('/images/blog-ellipse.svg')]">
                     </div>
                     <div className="container pb-16 lg:pb-24  relative mx-auto">
                         <div className="text-center">
-                            <h4 className="font-medium text-guindaClaro text-xl md:text-3xl uppercase">
+                            <h4 className="font-medium text-guindaClaro text-xl md:text-2xl uppercase">
                                 Acerca de la clase
                             </h4>
-                            <h2 className="font-bold text-guindaClaro text-5x1 sm:text-5x1 lg:text-7xl tracking-wider">
+                            <h2 className="font-bold text-guindaClaro text-4x1 sm:text-4x1 lg:text-5xl tracking-wider">
                                 Conoce más sobre el FellowShip
                             </h2>
                             <div className="pt-4 md:pt-6">
@@ -47,22 +49,22 @@ function FellowSegmentoAnterior() {
                                 <div className="w-20 lg:w-24 h-20 lg:h-24 mx-auto">
                                     <img src="/images/objetivo.svg" alt="icon responsive" />
                                 </div>
-                                <h3 className="font-semibold text-slate-600 text-3xl tracking-wide pt-2 block">
+                                <h3 className="font-semibold text-slate-600 text-2xl tracking-wide pt-2 block">
                                     Objetivo General
                                 </h3>
-                                <p className="text-slate-600 text-xl leading-relaxed pt-6">
+                                <p className="text-slate-600 text-lg leading-relaxed pt-6">
                                     Formar un oftalmólogo con las competencias clínicas y quirúrgicas que le faciliten realizar una cirugía de catarata de excelente calidad.
                                 </p>
                             </div>
 
-                            <div className="px-3 py-8 text-center rounded-lg ">
+                            <div className="px-3 py-8 text-center rounded-lg">
                                 <div className="w-20 lg:w-24 h-20 lg:h-24 mx-auto">
                                     <img src="/images/calendario.svg" alt="icon responsive" />
                                 </div>
-                                <h3 className="font-semibold text-slate-600 text-3xl tracking-wide pt-2 block">
+                                <h3 className="font-semibold text-slate-600 text-2xl tracking-wide pt-2 block">
                                     Duración
                                 </h3>
-                                <p className="text-slate-600 text-xl leading-relaxed pt-6 font-bold">
+                                <p className="text-slate-600 text-lg leading-relaxed pt-6 font-bold">
                                     1 año y 3 meses
                                 </p>
                                 <div className="mx-auto ml-10">
@@ -79,10 +81,10 @@ function FellowSegmentoAnterior() {
                                 <div className="w-20 lg:w-24 h-20 lg:h-24 mx-auto">
                                     <img src="/images/numeroCirugias.svg" alt="icon responsive" />
                                 </div>
-                                <h3 className="font-semibold text-slate-600 text-3xl tracking-wide pt-2 block">
+                                <h3 className="font-semibold text-slate-600 text-2xl tracking-wide pt-2 block">
                                     Número de Cirugías
                                 </h3>
-                                <p className="text-slate-600 text-xl leading-relaxed pt-6">
+                                <p className="text-slate-600 text-lg leading-relaxed pt-6">
                                     150 a 300 cirugías de cataratas por facoemulsificación
                                 </p>
                             </div>
@@ -91,10 +93,10 @@ function FellowSegmentoAnterior() {
                                 <div className="w-20 lg:w-24 h-20 lg:h-24 mx-auto">
                                     <img src="/images/jornada.svg" alt="icon responsive" />
                                 </div>
-                                <h3 className="font-semibold text-slate-600 text-3xl tracking-wide pt-2 block">
+                                <h3 className="font-semibold text-slate-600 text-2xl tracking-wide pt-2 block">
                                     Duración y horario de las jornadas
                                 </h3>
-                                <p className="text-slate-600 text-xl leading-relaxed pt-6">
+                                <p className="text-slate-600 text-lg leading-relaxed pt-6">
                                     Dedicación presencial, exclusivo y de tiempo completo.<br />
                                     <span className="font-bold">Actividad práctica:</span> Lunes a sábado 7:00 am hasta las 6:00 pm<br />
                                     <span className="font-bold">Actividad académica:</span>  Miércoles 6:45 am a 7:45 am / Viernes 12:00 pm a 2:00 pm

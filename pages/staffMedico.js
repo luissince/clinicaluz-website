@@ -10,15 +10,15 @@ function StaffMedico() {
         <Format type="nav">
 
             <div className="relative">
-                <div aria-hidden="true" className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
-                    <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
-                    <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+                <div aria-hidden="true" className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40">
+                    <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400"></div>
+                    <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300"></div>
                 </div>
                 <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
                     <div className="relative pt-36 ml-auto">
                         <div className="lg:w-2/3 text-center mx-auto">
                             <h1 className="text-guindaClaro font-bold text-5xl md:text-6xl xl:text-7xl">Staff Medicos <span className="text-guindaClaro ">oftalmologia.</span></h1>
-                            <p className="mt-8 text-xl text-gray-700 dark:text-gray-300">
+                            <p className="mt-8 text-xl text-gray-700">
                                 Nuestros mejores medicos al cuidado de tus ojos y tu salud; disponemos de más de 50 médicos, especializados para el cuidado de tus ojos.
                             </p>
                             <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
@@ -28,7 +28,7 @@ function StaffMedico() {
                                     </span>
                                 </Link>
                             </div>
-                            <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex mx-auto items-center justify-center">
+                            <div className="hidden py-8 mt-16 border-y border-gray-100 sm:flex mx-auto items-center justify-center">
                                 <div className="text-center">
                                     <h6 className=" font-display text-4xl font-medium tracking-tighter text-guindaClaro sm:text-5xl">Staff Médico</h6>
                                 </div>
@@ -38,7 +38,7 @@ function StaffMedico() {
                 </div>
             </div>
 
-            <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
+            <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6 mb-20">
                 <div className="mt-14 grid grid-cols-1 items-start gap-y-8 gap-x-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4">
                     <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
                         <div className="absolute bottom-0 top-2 left-0.5 hidden w-px bg-slate-200 lg:block"></div>
