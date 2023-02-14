@@ -20,7 +20,7 @@ function Estrabismo() {
                                 Es por eso que es importante tratar el estrabismo, sobre todo en una edad temprana.
                             </p>
                             <div className="mt-12">
-                                <a href="" target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-guindaOscuro active:bg-guindaClaro uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150">
+                                <a className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-guindaOscuro active:bg-guindaClaro uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150">
                                     Agenda una cita
                                 </a>
                             </div>

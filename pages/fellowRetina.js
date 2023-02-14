@@ -8,33 +8,35 @@ function FellowRetina() {
                 <div className="bg-bottom bg-cover bg-no-repeat w-full h-full bg-[url('/images/fondoFellowShip.png')]">
                     {/* Header */}
                     <div className="container mx-auto px-4 pt-32 sm:pt-44 md:pt-20 flex flex-col lg:flex-row justify-start lg:justify-between items-center">
-                        <div className="lg:w-2/5 text-center  lg:text-left md:pt-10">
+                        <div className="lg:w-2/5 text-center  lg:text-left md:pt-10 mx-20">
                             <h1 className="font-medium text-white text-4xl lg:text-5xl xl:text-6xl tracking-tight">
                                 FellowShip <br /> Retina</h1>
                             <p className="font-light text-white text-lg lg:text-2xl xl:text-3xl tracking-wider leading-tight pt-5">
                                 Busca como principal objetivo promover e incentivar la prevención, tratamiento y rehabilitación de las patologías que afectan la retina
                                 y el vitreo conformando una red de especialista y así dar respuesta a las necesidades asistenciales del sistema.
                             </p>
-                            <Link href="/docencia" className="w-full py-4 md:py-5 px-8 lg:px-10 bg-white font-medium text-guindaOscuro hover:text-guindaClaro text-base lg:text-xl tracking-wider uppercase rounded-full text-center inline-block mt-6 lg:mt-10 shadow-md hover:shadow transition duration-300 border border-white hover:border-guindaClaro">
-                                Volver a Docencia
+                            <Link href="/docencia">
+                                <a className="w-full py-4 md:py-5 px-8 lg:px-10 bg-white font-medium text-guindaOscuro hover:text-guindaClaro text-base lg:text-xl tracking-wider uppercase rounded-full text-center inline-block mt-6 lg:mt-10 shadow-md hover:shadow transition duration-300 border border-white hover:border-guindaClaro">
+                                    Volver a Docencia
+                                </a>
                             </Link>
                         </div>
-                        <div className="w-full sm:w-5/6 lg:w-1/2 mt-10">
+                        <div className="w-full sm:w-5/6 lg:w-1/2 mt-10 mx-20">
                             <img src="/images/illustration.svg" alt="hero illustration" className="w-full h-auto" />
                         </div>
                     </div>
                 </div>
 
                 {/* Body */}
-                <div className="relative pt-20">
+                <div className="relative pt-20 px-28">
                     <div className="bg-cover bg-center bg-no-repeat w-[32rem] h-[32rem] absolute top-0 left-0 -ml-56 mt-32 bg-[url('/images/blog-ellipse.svg')]">
                     </div>
                     <div className="container pb-16 lg:pb-24  relative mx-auto">
                         <div className="text-center">
-                            <h4 className="font-medium text-guindaClaro text-xl md:text-3xl uppercase">
+                            <h4 className="font-medium text-guindaClaro text-xl md:text-2xl uppercase">
                                 Acerca de la clase
                             </h4>
-                            <h2 className="font-bold text-guindaClaro text-5x1 sm:text-5x1 lg:text-7xl tracking-wider">
+                            <h2 className="font-bold text-guindaClaro text-4x1 sm:text-4x1 lg:text-5xl tracking-wider">
                                 Conoce más sobre el FellowShip
                             </h2>
                             <div className="pt-4 md:pt-6">
@@ -47,22 +49,22 @@ function FellowRetina() {
                                 <div className="w-20 lg:w-24 h-20 lg:h-24 mx-auto">
                                     <img src="/images/objetivo.svg" alt="icon responsive" />
                                 </div>
-                                <h3 className="font-semibold text-slate-600 text-3xl tracking-wide pt-2 block">
+                                <h3 className="font-semibold text-slate-600 text-2xl tracking-wide pt-2 block">
                                     Objetivo General
                                 </h3>
-                                <p className="text-slate-600 text-xl leading-relaxed pt-6">
+                                <p className="text-slate-600 text-lg leading-relaxed pt-6">
                                     Capacitación para el diagnóstico y manejo de las patologías vítreo retinianas simples y complejas.
                                 </p>
                             </div>
 
-                            <div className="px-3 py-8 text-center rounded-lg ">
+                            <div className="px-3 py-8 text-center rounded-lg">
                                 <div className="w-20 lg:w-24 h-20 lg:h-24 mx-auto">
                                     <img src="/images/calendario.svg" alt="icon responsive" />
                                 </div>
-                                <h3 className="font-semibold text-slate-600 text-3xl tracking-wide pt-2 block">
+                                <h3 className="font-semibold text-slate-600 text-2xl tracking-wide pt-2 block">
                                     Duración
                                 </h3>
-                                <p className="text-slate-600 text-xl leading-relaxed pt-6">
+                                <p className="text-slate-600 text-lg leading-relaxed pt-6">
                                     El curso completo dura 2 años
                                 </p>
                             </div>
@@ -71,10 +73,10 @@ function FellowRetina() {
                                 <div className="w-20 lg:w-24 h-20 lg:h-24 mx-auto">
                                     <img src="/images/jornada.svg" alt="icon responsive" />
                                 </div>
-                                <h3 className="font-semibold text-slate-600 text-3xl tracking-wide pt-2 block">
+                                <h3 className="font-semibold text-slate-600 text-2xl tracking-wide pt-2 block">
                                     Disposición
                                 </h3>
-                                <p className="text-slate-600 text-xl leading-relaxed pt-6">
+                                <p className="text-slate-600 text-lg leading-relaxed pt-6">
                                     Tiempo completo y dedicación exclusiva con horarios variables de acuerdo a la disponibilidad de los docentes, así
                                     como atención de urgencias.
                                 </p>

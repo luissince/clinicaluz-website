@@ -10,9 +10,9 @@ function StaffMedico() {
         <Format type="nav">
 
             <div className="relative">
-                <div aria-hidden="true" className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
-                    <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
-                    <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+                <div aria-hidden="true" className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40">
+                    <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400"></div>
+                    <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300"></div>
                 </div>
                 <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
                     <div className="relative pt-36 ml-auto">
@@ -38,7 +38,7 @@ function StaffMedico() {
                 </div>
             </div>
 
-            <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
+            <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6 mb-20">
                 <div className="mt-14 grid grid-cols-1 items-start gap-y-8 gap-x-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4">
                     <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
                         <div className="absolute bottom-0 top-2 left-0.5 hidden w-px bg-slate-200 lg:block"></div>

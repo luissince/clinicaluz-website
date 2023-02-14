@@ -20,7 +20,7 @@ function Retina() {
                                 Está compuesto en un 99% de agua, y su función es mantener a la retina en un estado perfecto, para que de esta forma pueda reproducir las imágenes con claridad y precisión.
                             </p>
                             <div className="mt-12">
-                                <a href="" target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-guindaOscuro active:bg-guindaClaro uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150">
+                                <a className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-guindaOscuro active:bg-guindaClaro uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150">
                                     Agenda una cita
                                 </a>
                             </div>
