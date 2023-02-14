@@ -23,10 +23,10 @@ const Billing = () => (
             Consulta las ultimas noticias; relacionadas al área de oftalmologia; en nuestro canal dedicado a la información é investiacion.            
           </p>
           <div className="mt-8 flex gap-4">
-            <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700">
+            <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700 cursor-pointer">
               <span>Browse <span className="hidden sm:inline">templates</span><span aria-hidden="true" className="text-slate-400 sm:inline">→</span></span>
             </a>
-            <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 ">
+            <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 cursor-pointer">
               <span>Get <span className="hidden sm:inline">everything</span> with all-access <span aria-hidden="true" className="text-black/25 sm:inline">→</span></span>
             </a>
           </div>
@@ -35,16 +35,21 @@ const Billing = () => (
         <div className="relative z-5 hidden lg:block">
           <div className="mt-6 flex">
             <div className="relative flex-shrink-0 p-4">
-              <div className="relative z-5 overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
-                <Link href="https://retinatoday.com/articles/2021-nov-dec/an-aggressive-presentation-of-proliferative-retinopathy" target="_blank">
-                  <img className="h-[404px] w-[336px]" src="/images/noticia1.png" />
+              <div className="relative z-5 overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5 cursor-pointer">
+                <Link href="https://retinatoday.com/articles/2021-nov-dec/an-aggressive-presentation-of-proliferative-retinopathy">
+                  <a target="_blank">
+                    <img className="h-[404px] w-[336px]" src="/images/noticia1.png" />
+                  </a>
+                  
                 </Link>
               </div>
             </div>
             <div className="relative mt-14 flex-shrink-0 p-4">
-              <div className="overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
+              <div className="overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5 cursor-pointer">
                 <Link href="https://retinatoday.com/" target="_blank">
-                  <img className="h-[404px] w-[336px]" src="/images/noticia2.png" />
+                  <a target="_blank">
+                    <img className="h-[404px] w-[336px]" src="/images/noticia2.png" />
+                  </a>
                 </Link>
               </div>
             </div>

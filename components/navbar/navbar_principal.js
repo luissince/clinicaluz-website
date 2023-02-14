@@ -48,8 +48,8 @@ const Navbar = () => {
     <div className={`fixed z-20 w-full ${opacity}`}>
       <div className="container max-w-screen-2xl mx-auto ss:px-12 px-6">
         <div className="flex py-6 justify-between items-center">
-          <Link href="/" className="cursor-pointer">
-          <img src={`/images/${image}`} alt="hoobank" className="w-[170px]" />
+          <Link href="/">
+          <img src={`/images/${image}`} alt="hoobank" className="w-[170px] cursor-pointer" />
           </Link>
 
           <ul className="list-none lg:flex hidden justify-end items-center flex-1">

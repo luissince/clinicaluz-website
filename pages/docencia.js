@@ -111,8 +111,10 @@ function Docencia() {
                                         </div>
                                         <div>
                                             <div className="mt-3 rounded-lg sm:mt-0">
-                                                <Link href="/fellowSegmentoAnterior" className="inline-flex items-center px-8 py-3 text-lg text-white transition-all duration-500 ease-in-out transform bg-guindaOscuro rounded-lg md:mb-2 lg:mb-0 hover:border-white hover:bg-guindaClaro focus:ring-2 ring-offset-current ring-offset-2">
-                                                    Ver más
+                                                <Link href="/fellowSegmentoAnterior">
+                                                    <a className="inline-flex items-center px-8 py-3 text-lg text-white transition-all duration-500 ease-in-out transform bg-guindaOscuro rounded-lg md:mb-2 lg:mb-0 hover:border-white hover:bg-guindaClaro">
+                                                        Ver más
+                                                    </a>
                                                 </Link>
                                             </div>
                                         </div>
@@ -137,8 +139,10 @@ function Docencia() {
                                         </div>
                                         <div>
                                             <div className="mt-3 rounded-lg sm:mt-0">
-                                                <Link href="/fellowRetina" className="inline-flex items-center px-8 py-3 text-lg text-white transition-all duration-500 ease-in-out transform bg-guindaOscuro rounded-lg md:mb-2 lg:mb-0 hover:border-white hover:bg-guindaClaro focus:ring-2 ring-offset-current ring-offset-2">
-                                                    Ver más
+                                                <Link href="/fellowRetina">
+                                                    <a className="inline-flex items-center px-8 py-3 text-lg text-white transition-all duration-500 ease-in-out transform bg-guindaOscuro rounded-lg md:mb-2 lg:mb-0 hover:border-white hover:bg-guindaClaro">
+                                                      Ver más  
+                                                    </a>
                                                 </Link>
                                             </div>
                                         </div>
@@ -162,8 +166,10 @@ function Docencia() {
                                         </div>
                                         <div className="mt-auto">
                                             <div className="mt-3 rounded-lg sm:mt-0">
-                                                <Link href="/fellowGlaucoma" className="inline-flex items-center px-8 py-3 text-lg text-white transition-all duration-500 ease-in-out transform bg-guindaOscuro rounded-lg md:mb-2 lg:mb-0 hover:border-white hover:bg-guindaClaro focus:ring-2 ring-offset-current ring-offset-2">
-                                                    Ver más
+                                                <Link href="/fellowGlaucoma">
+                                                    <a className="inline-flex items-center px-8 py-3 text-lg text-white transition-all duration-500 ease-in-out transform bg-guindaOscuro rounded-lg md:mb-2 lg:mb-0 hover:border-white hover:bg-guindaClaro">
+                                                       Ver más 
+                                                    </a>
                                                 </Link>
                                             </div>
                                         </div>
