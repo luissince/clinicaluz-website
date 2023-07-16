@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: sudo docker stop next-app && docker rm next-app
+      run: sudo docker stop next-app && sudo docker rm next-app
     - name: Remove existing image
       run: sudo docker image rm next-app
     - name: Build Docker image
