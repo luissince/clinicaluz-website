@@ -15,10 +15,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker stop next-app && docker rm next-app
+      run: sudo docker stop next-app && docker rm next-app
     - name: Remove existing image
-      run: docker image rm next-app
+      run: sudo docker image rm next-app
     - name: Build Docker image
-      run: docker build -t next-app .
+      run: sudo docker build -t next-app .
     - name: Run Docker container
-      run: docker run -d --name next-app --net=my-net -p 3000:3000 next-app
+      run: sudo docker run -d --name next-app --net=my-net -p 3000:3000 next-app
