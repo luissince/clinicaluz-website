@@ -21,4 +21,4 @@ jobs:
     - name: Build Docker image
       run: sudo docker build -t next-app .
     - name: Run Docker container
-      run: sudo docker run -d --name next-app --net=my-net -p 3000:3000 next-app
+      run: sudo docker run -d --name next-app --net=luis -p 3000:3000 next-app
