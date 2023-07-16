@@ -14,6 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Create folder
+      run: mkdir hola1
     - name: Build the Docker image
       run: sudo docker stop next-app && sudo docker rm next-app
     - name: Remove existing image
