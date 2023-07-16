@@ -1,37 +1,26 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
-
-name: Node.js CI
+name: Docker CI/CD
 
 on:
   push:
-    branches: [ "master" ]
-   
-  # Acciones de git
-  # pull_request: para
-    # branches: [ "master" ]
+    branches:
+      - main
 
 jobs:
-  build:
-
-    # Desplegar
-    # runs-on: ubuntu-latest
-    runs-on: self-hosted
-
-    strategy:
-      matrix:
-        # node-version: [14.x, 16.x, 18.x]
-        node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+  build-and-deploy:
+    runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm i
-    # - run: npm ci
-    - run: npm run build --if-present
-    # - run: npm test
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Stop and remove existing container
+        run: docker stop next-app && docker rm next-app
+
+      - name: Remove existing image
+        run: docker image rm next-app
+
+      - name: Build Docker image
+        run: docker build -t next-app .
+
+      - name: Run Docker container
+        run: docker run -d --name next-app --net=my-net -p 3000:3000 next-app
