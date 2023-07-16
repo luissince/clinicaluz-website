@@ -1,6 +1,6 @@
 
 export const navigation = [
-    { name: 'Home 1', href: '/' },
+    { name: 'Home', href: '/' },
     { name: 'Nosotros', href: '/nosotros' },
     { name: 'Especialidades', href: '/especialidades' },
     { name: 'Pacientes', href: '/pacientes' },
