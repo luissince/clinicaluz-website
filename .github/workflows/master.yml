@@ -16,7 +16,7 @@ jobs:
 
     # Desplegar
     #runs-on: ubuntu-latest
-    runs-on: sefl-hosted
+    runs-on: self-hosted
 
     strategy:
       matrix:
