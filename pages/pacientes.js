@@ -32,7 +32,7 @@ function Pacientes() {
                 <div className="text-white lg:py-20 lg:px-8 px-6 py-12 xl:pb-32 xl:pt-24 bg-[#EFF6FF]">
                     {/* Titulo de la grilla */}
                     <div className="mx-auto max-w-7xl">
-                        <h2 className="font-medium text-black md:text-4xl sm:text-3xl text-2xl text-center">Optica</h2>
+                        <h2 className="font-medium text-black md:text-4xl sm:text-3xl text-2xl text-center">Óptica</h2>
                         <p className="mx-auto max-w-2xl text-gray-600 mt-2 lg:text-lg text-lg text-center">We are mmitted to a unique, cutting-edge approach to that</p>
                     </div>
                     {/* Div que contiene la grilla */}
@@ -43,7 +43,7 @@ function Pacientes() {
                             <div className="flex flex-col col-span-1 lg:col-span-1 md:col-span-2 overflow-hidden relative justify-end rounded-lg">
                                 <img src="/images/pac1.png" className="object-cover h-full absolute inset-y-0 w-full" />
                                 <div className="pt-48 bg-gradient-to-t pb-6 lg:pt-12 from-[#111827] px-6 relative">
-                                    <h3 className="font-bold mb-1 leading-7 text-white">Optica</h3>
+                                    <h3 className="font-bold mb-1 leading-7 text-white">Óptica</h3>
                                 </div>
                             </div>
 
