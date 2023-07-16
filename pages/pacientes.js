@@ -89,7 +89,7 @@ function Pacientes() {
                                         Horario de atención:
                                         Lunes a Viernes de 07:00 a 14:30 hrs.
                                         Sábado de 07:00 a 12:30 hrs.
-                                        Teléfono: 55 5128 1140 Ext. 550
+                                        Teléfono: 55 5128 1140 Ext. 550.
                                     </p>
                                 </div>
                             </div>
