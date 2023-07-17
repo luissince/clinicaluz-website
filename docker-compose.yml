@@ -1,0 +1,16 @@
+version: '3'
+services:
+  next-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: next-app
+    networks:
+      - luis
+    ports:
+      - 3000:3000
+    restart: always
+    # Puedes agregar otros ajustes y configuraciones adicionales aquí
+networks:
+  luis:
+    # Puedes agregar ajustes y configuraciones de red adicionales aquí
