@@ -16,11 +16,11 @@ jobs:
     - uses: actions/checkout@v3
     - name: Create folder
       run: mkdir hola1
-    - name: Build the Docker image
-      run: sudo docker stop next-app && sudo docker rm next-app
-    - name: Remove existing image
-      run: sudo docker image rm next-app
-    - name: Build Docker image
-      run: sudo docker build -t next-app .
-    - name: Run Docker container
-      run: sudo docker run -d --name next-app --net=luis -p 3000:3000 next-app
+    # - name: Build the Docker image
+      # run: sudo docker stop next-app && sudo docker rm next-app
+    # - name: Remove existing image
+      # run: sudo docker image rm next-app
+    # - name: Build Docker image
+      # run: sudo docker build -t next-app .
+    # - name: Run Docker container
+      # run: sudo docker run -d --name next-app --net=luis -p 3000:3000 next-app
