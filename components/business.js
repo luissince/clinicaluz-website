@@ -15,13 +15,13 @@ const Business = () => (
         <Tab.Group manual >
           <Tab.List className="mb-12 lg:mt-0 mt-6 flex flex-wrap gap-8 mx-6 md:mx-12 lg:mx-0">
             <Tab className={({ selected }) => classNames("border-b-4 border-b-white px-1 xs:px-3 py-2 text-xs xs:text-base text-black transition-colors  hover:text-gray-500 outline-0", selected ? "animate-pulse border-b-guindaClaro" : "")}>
-              <span className="relative z-10">Vista 1</span>
+              <span className="relative z-10">Pestaña 1</span>
             </Tab>
             <Tab className={({ selected }) => classNames("border-b-4 border-b-white px-1 xs:px-3 py-2 text-xs xs:text-base text-black transition-colors  hover:text-gray-500 outline-0", selected ? "animate-pulse border-b-guindaClaro" : "")}>
-              <span className="relative z-10">Vista 2</span>
+              <span className="relative z-10">Pestaña 2</span>
             </Tab>
             <Tab className={({ selected }) => classNames("border-b-4 border-b-white px-1 xs:px-3 py-2 text-xs xs:text-base text-black transition-colors  hover:text-gray-500 outline-0", selected ? "animate-pulse border-b-guindaClaro" : "")}>
-              <span className="relative z-10">Vista 3</span>
+              <span className="relative z-10">Pestaña 3</span>
             </Tab>
           </Tab.List>
           <>
