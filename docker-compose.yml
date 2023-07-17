@@ -9,8 +9,8 @@ services:
       - luis
     ports:
       - 3000:3000
+    container_name: next-app
     restart: always
-    # Puedes agregar otros ajustes y configuraciones adicionales aquí
 networks:
   luis:
-    # Puedes agregar ajustes y configuraciones de red adicionales aquí
+    external: true
