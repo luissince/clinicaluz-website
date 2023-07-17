@@ -17,7 +17,7 @@ jobs:
     - name: Create folder
       run: mkdir hola1
     - name: Create container
-      run: docker-compose up -d
+      run: docker-compose up --build -d
     # - name: Build the Docker image
       # run: sudo docker stop next-app && sudo docker rm next-app
     # - name: Remove existing image
